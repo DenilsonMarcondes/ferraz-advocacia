@@ -6,6 +6,7 @@
 	<script src="plugins/jquery-3.3.1.min.js"></script>
 	<script src="plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<link type="text/css" rel="stylesheet" media="screen" href="plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<title>Home - Ferraz </title>
 </head>
 <body>
