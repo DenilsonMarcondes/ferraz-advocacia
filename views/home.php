@@ -1,11 +1,56 @@
-<div style="margin-top: 100px;"></div>
+<div id="slider" style="height: 644px;"></div>
 
-<div class="session-estrutura">
+<div class="session-atuacao-destaques">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				Texto
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero">
+
+				<div class="hidden-xs" style="background-color: #ffffff; position: absolute; height: 50px; width: 700px; overflow-x: hidden !important; z-index: 0;"></div>
+
+				<div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">1</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">2</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">3</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">4</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="sessao-atuacao">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">5</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">6</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">7</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #ffffff; background-color: #e1e1e1">8</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="session-estrutura hidden-xs">
 	<div class="container">
 		<div class="row row-title">
 			<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
 				<p>onde estamos</p>
-				<p class="session-title">Estrutura física</p>
+				<p class="session-title structure-title">Estrutura física</p>
 			</div>
 		</div>
 		<div class="row row-first">

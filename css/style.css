@@ -24,7 +24,7 @@
 	UNIVERSAL STYLES
 	================
 */
-body { font-family: 'Open Sans', sans-serif !important; }
+body { font-family: 'Open Sans', sans-serif !important; overflow-x: hidden }
 
 a:focus, a:hover { text-decoration: none !important }
 
@@ -64,7 +64,12 @@ a:focus, a:hover { text-decoration: none !important }
 	HOME STYLES
 	=============
 */
+/* ÁREAS DE ATUAÇÃO */
+.session-atuacao-destaques { background-color: #242367 }
+.session-atuacao { background-color: #ffffff }
+
 .session-estrutura { background-color: #f6f6f6 }
+.session-estrutura { padding-top: 100px; padding-bottom: 100px }
 .session-estrutura .row-title p:first-child { font-size: 14px; font-weight: 600; color: #b1b1b1; margin: 0; }
 .session-estrutura .row-title p.session-title { color: #242367; line-height: 1.2 }
 
@@ -98,7 +103,9 @@ footer .row-footer-copyright .col-copyright p { color: #f5f5f5; margin: 0 }
 footer .row-footer-copyright .col-peppers a { color: #f5f5f5 }
 
 @media screen and (min-width: 768px) {
-	.row-carousel-clients { padding-top: 45px; padding-bottom: 45px }
+	.structure-title { padding-top: 23px; padding-bottom: 23px }
+
+	.row-carousel-clients { padding-top: 105px; padding-bottom: 55px }
 	.row-carousel-clients .owl-carousel { padding-top: 43px; padding-bottom: 43px }
 	.owl-clientes img { width: 150px !important }
 	
