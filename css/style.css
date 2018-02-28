@@ -1,1 +1,103 @@
-/* aqui vão os seus estilos */
+/*
+	=====
+	FONTS
+	=====
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+.Roboto { font-family: 'Roboto', sans-serif }
+
+.semi-bold { font-weight: 600 }
+.uppercase { text-transform: uppercase }
+/*
+	======
+	COLORS
+	======
+*/
+.bg-grey-light { background-color: #f5f5f5 }
+.bg-blue-alternative { background-color: #242367 }
+.bg-blue { background-color: #1D1C54 }
+
+/*
+	================
+	UNIVERSAL STYLES
+	================
+*/
+body { font-family: 'Open Sans', sans-serif !important; }
+
+a:focus, a:hover { text-decoration: none !important }
+
+.text-center { display: block; text-align: center; text-align: -webkit-center }
+
+.padding-zero { padding: 0 !important }
+
+.rotate { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); -webkit-transition: 0.5s; transition: 0.5s }
+
+@media screen and (min-width: 768px) {
+	p.session-title { font-size: 30px; font-weight: 600; font-family: 'Roboto', sans-serif; margin: 0; }
+}
+
+@media screen and (max-width: 767px) {
+	.container { padding-left: 27px !important; padding-right: 27px !important }
+
+	p.session-title { font-size: 20px; font-weight: 600; font-family: 'Roboto', sans-serif; margin: 0; }
+}
+
+/*
+	=============
+	HEADER STYLES
+	=============
+*/
+@media screen and (max-width: 767px) {
+	.menu-mobile-li { border-bottom: 1px solid #f5f5f5; padding: 12px 0px !important }
+	.menu-mobile-li a { font-size: 14px; color: #f5f5f5; font-weight: 400 }
+	.menu-mobile-li p { margin: 0; letter-spacing: 1px; font-weight: 200 }
+}
+
+/*
+	=============
+	FOOTER STYLES
+	=============
+*/
+.row-carousel-clients p.session-title { color: #242367; line-height: 1.2 }
+
+.menu-mobile-structure-li { padding-top: 15px; padding-bottom: 10px; padding-left: 0 !important; padding-right: 0 !important; border-bottom: 1px solid #242367 }
+.menu-mobile-structure-li:last-child { padding-bottom: 30px }
+.menu-mobile-structure-li .structure-li-principal p:first-child { font-size: 10px; font-weight: 700; color: #b1b1b1; margin: 0 }
+.menu-mobile-structure-li .structure-li-principal p.session-title { color: #242367; line-height: 1.8 }
+.menu-mobile-structure-li .structure-li-principal svg { -webkit-transition: 0.5s; transition: 0.5s }
+.menu-mobile-structure-li .structure-li .title p { font-size: 14px; text-transform: uppercase; color: #242367; font-weight: 500; margin: 0 }
+.menu-mobile-structure-li .structure-li .col-address p.description { margin-top: 10px; margin-bottom: 10px }
+.menu-mobile-structure-li .structure-li p.description { font-size: 12px; color: #4a4a4a; line-height: 18px; margin: 0; font-weight: 400 }
+
+footer .row-footer-copyright .col-copyright p { color: #f5f5f5; margin: 0 }
+footer .row-footer-copyright .col-peppers a { color: #f5f5f5 }
+
+@media screen and (min-width: 768px) {
+	.row-carousel-clients { padding-top: 45px; padding-bottom: 45px }
+	.row-carousel-clients .owl-carousel { padding-top: 43px; padding-bottom: 43px }
+	.owl-clientes img { width: 150px !important }
+	
+	footer .row-footer-logo .col-logo { padding-top: 43px; padding-bottom: 43px }
+	footer .row-footer-logo .col-logo img { height: 57px }
+
+	footer .row-footer-copyright { padding-top: 16px; padding-bottom: 16px }
+	footer .row-footer-copyright .col-copyright { text-align: right }
+	footer .row-footer-copyright .col-copyright p { font-size: 10px; font-weight: 600 }
+	footer .row-footer-copyright .col-peppers { text-align: right; margin-top: -5px }
+	footer .row-footer-copyright .col-peppers a { font-size: 12px }
+}
+
+@media screen and (max-width: 767px) {
+	.row-carousel-clients { padding-top: 40px; padding-bottom: 45px }
+	.row-carousel-clients .owl-carousel { padding-top: 15px; padding-bottom: 15px }
+
+	footer .row-footer-logo .col-logo { padding-top: 28px; padding-bottom: 28px }
+	footer .row-footer-logo .col-logo img { height: 37px }
+
+	footer .row-footer-copyright { padding-top: 19px; padding-bottom: 19px }
+	footer .row-footer-copyright .col-copyright p { font-size: 6px; width: 120px; font-weight: 200 }
+	footer .row-footer-copyright .col-peppers { text-align: right }
+	footer .row-footer-copyright .col-peppers a { font-size: 8px; position: absolute; right: 15px; font-weight: 200 }
+}
