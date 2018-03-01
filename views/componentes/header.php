@@ -1,8 +1,10 @@
 <style type="text/css">
-	.nav>li>a { padding: 10px 35px }
-	button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; padding: 60px; }
+	@media screen and (min-width: 767px) {
+		.navbar-default .navbar-nav>li>a { font-size: 14px; color: #242367 }
+		.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { font-weight: 700; color: #242367 }
+	}
 </style>
-<nav style="padding-top: 20px; padding-bottom: 20px;" class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -11,7 +13,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="home.html"><img src="<?= RAIZSITE ?>/img/ferraz-advocacia.png" alt="" style=" height: 50px; margin-top: -20px;"></a>
+			<a class="navbar-brand" href="home.html"><img src="<?= RAIZSITE ?>/img/ferraz-advocacia.png" alt=""></a>
 		</div>
 		<div style="" id="navbar" class="navbar-collapse collapse">
 			<!-- Inicio Navbar do projeto -->
@@ -24,4 +26,12 @@
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
-</nav> 
+</nav>
+
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 500) {
+			console.log('Mais de 500 pixels submarinos');
+		}
+	});
+</script>
