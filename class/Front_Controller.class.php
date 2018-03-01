@@ -10,7 +10,8 @@
             'contato'=>array('layout'=>'default','view'=>'contato'),
             'areas-de-atuacao'=>array('layout'=>'default','view'=>'areas-de-atuacao'),
             'estrutura'=>array('layout'=>'default','view'=>'estrutura'),
-            'premios'=>array('layout'=>'default','view'=>'premios')
+            'premios'=>array('layout'=>'default','view'=>'premios'),
+            'quem-somos'=>array('layout'=>'default','view'=>'quem-somos')
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada
         private static $_parametros;

@@ -10,6 +10,7 @@ p.paragrafo{color: #fff}
 <h5>teste</h5>
 <h5>teste</h5>
 
+<!--inicio do container-->
 <div class="container texto">
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
@@ -24,11 +25,11 @@ p.paragrafo{color: #fff}
 				<h5><b>Bancário, fomento mercantil e empresarial, tanto</b></h5>
 				<h5><b>na recuperação de créditos, quanto na defesa de</b></h5>
 				<h5><b>ações cíveis.</b></h5>
+			</div>
 		</div>
-	</div>
-  </div>
+  	</div>
 </div>
-
+<!--fim do container-->
 <br>
 
 <div style="background-color: #16197D;">
@@ -36,6 +37,8 @@ p.paragrafo{color: #fff}
 		<br>
 			<br>
 				<br>
+
+	<!--inicio do container-->
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 letras " style=" color:#fff;">
@@ -49,6 +52,7 @@ p.paragrafo{color: #fff}
 				<h4>SOLUÇÕES COMPLETAS</h4><br>
 				<h4>ALTA COMPLEXIDADE</h4><br>
 			</div>
+
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D; color:#fff;">
 			
 			<h4>RECUPERAÇÃO DE CRÉDITOS</h4>
@@ -95,7 +99,10 @@ p.paragrafo{color: #fff}
 				</div>
 					<br>
 		</div>
+		<!-- fim do container-->
+
 	</div>
+
 	<!--inicio do container-->
 	<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -117,11 +124,11 @@ p.paragrafo{color: #fff}
 						<a style="color:#fff; color: bold; " href="#">saiba mais ></a>
 					</div>
 				</div>
-			</div>a
-	</div>
-	<!--fim do container-->
-<br>
-
+			</div>	
+		</div>
+		<!--fim do container-->
+		
+		<br>
 </div>
 
 
