@@ -13,16 +13,19 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="home.html"><img src="<?= RAIZSITE ?>/img/ferraz-advocacia.png" alt=""></a>
+			<a class="navbar-brand" href="<?= RAIZSITE ?>">
+				<img class="img-brand hidden-xs" src="<?= RAIZSITE ?>/img/ferraz-advocacia.png" alt="">
+				<img class="hidden-lg hidden-md hidden-sm" src="<?= RAIZSITE ?>/img/logo-branca.png">
+			</a>
 		</div>
 		<div style="" id="navbar" class="navbar-collapse collapse">
 			<!-- Inicio Navbar do projeto -->
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="quem-somos.html">Quem somos</a></li>
-				<li><a href="areas-de-atuacao.html">Areas de atuação</a></li>
-				<li><a href="estrutura.html">Estrutura</a></li>
-				<li><a href="premios.html">Prêmios</a></li>
-				<li><a href="contato.html">Contato</a></li>
+				<li><a href="<?= RAIZSITE ?>/quem-somos">Quem somos</a></li>
+				<li><a href="<?= RAIZSITE ?>/areas-de-atuacao">Areas de atuação</a></li>
+				<li><a href="<?= RAIZSITE ?>/estrutura">Estrutura</a></li>
+				<li><a href="<?= RAIZSITE ?>/premios">Prêmios</a></li>
+				<li><a href="<?= RAIZSITE ?>/contato">Contato</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
@@ -30,8 +33,10 @@
 
 <script type="text/javascript">
 	$(document).scroll(function() {
-		if ($(this).scrollTop() > 500) {
-			console.log('Mais de 500 pixels submarinos');
+		if ($(this).scrollTop() > 100) {
+			$(".navbar-default").addClass("navbar-sticky");
+		} else {
+			$(".navbar-default").removeClass("navbar-sticky");
 		}
 	});
 </script>
