@@ -96,9 +96,9 @@ a:focus, a:hover { color: inherit; text-decoration: none !important }
 }
 
 /*
-	=============
+	===========
 	HOME STYLES
-	=============
+	===========
 */
 /* ÁREAS DE ATUAÇÃO */
 .session-atuacao-destaques { background-color: #242367 }
@@ -118,6 +118,48 @@ a:focus, a:hover { color: inherit; text-decoration: none !important }
 .item-title { color: #242367; text-transform: uppercase; font-size: 20px; font-weight: 500; font-family: 'Roboto', sans-serif; margin: 0 }
 .item-content p.item-address { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0; padding-bottom: 10px }
 .item-content p.item-phone { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0 }
+
+/*
+	==============
+	CONTATO STYLES
+	==============
+*/
+.row-form .col-content h3 { margin: 9px 0px 0px 0px; font-size: 20px; color: #242367; font-family: 'Roboto', sans-serif; font-weight: 500 }
+.row-form .col-content p { font-size: 14px; line-height: 1.79; color: #4a4a4a }
+
+.form-control.form { border: none; border-bottom: 2px solid #9191b3; border-radius: 1px; padding-left: 0px; padding-right: 0px; box-shadow: none }
+.form-control.form:focus,
+.form-control.form:hover { border-color: #16197D; outline: 0; -webkit-box-shadow: none; box-shadow: none }
+.form-control.form { font-size: 13px; color: #242367 }
+
+.form-control.form::-webkit-input-placeholder { color: #242367 }
+.form-control.form::-moz-placeholder { color: #242367 }
+.form-control.form:-ms-input-placeholder { color: #242367 }
+.form-control.form:-moz-placeholder { color: #242367 }
+
+input.form-control.form:first-child { margin-top: 0px }
+input.form-control.form { margin-top: 55px }
+textarea.form-control.form { margin-top: 40px }
+
+button[type="submit"].botao { border-radius: 0; font-size: 14px; font-weight: 600; background-color: #242367; color: #ffffff }
+
+@media screen and (min-width: 768px) {
+	.row-form .col-content .call { margin-top: 37px; margin-bottom: 37px }
+	.row-form .col-content .call p { width: 228px }
+	.row-form .col-content .address p { width: 184px }
+
+	button[type="submit"].botao { float: right; padding: 15px 28px; margin-top: 27px }
+}
+
+@media screen and (max-width: 767px) {
+	.row-form .col-content .call { margin-top: 35px; margin-bottom: 24px }
+	.row-form .col-content .call p { width: 228px }
+	.row-form .col-content .address p { width: 215px }
+
+	.row-form .col-form form { margin-bottom: 29px; margin-top: 60px }
+
+	button[type="submit"].botao { padding: 10px 28px; width: 100%; margin-top: 24px }
+}
 
 /*
 	=============
