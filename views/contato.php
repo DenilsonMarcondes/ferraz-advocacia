@@ -416,7 +416,7 @@
 	</div>
 </div>
 
-<div class="banner-footer-contact" style="background: url('<?= RAIZSITE ?>/img/advogados.png'); background-position: center center; background-size: cover"></div>
+<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/advogados.png'); background-position: center center; background-size: cover"></div>
 
 <script type="text/javascript">
 	$(".hidden-filiais#matrizCuritiba").hide();
