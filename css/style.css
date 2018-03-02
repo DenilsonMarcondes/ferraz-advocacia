@@ -123,6 +123,12 @@ a.session-link { font-size: 12px; font-weight: bold }
 	===========
 */
 /* HISTÓRIA */
+.row-historia { background-color: #f5f5f5 }
+.row-historia h3.session-title { color: #242367 }
+.row-historia p.session-content { color: #4a4a4a }
+.row-historia a.session-link { color: #242367; font-weight: normal; font-size: 12px }
+.row-historia a.session-link:hover { font-weight: bold }
+
 /* ÁREAS DE ATUAÇÃO */
 .session-atuacao { background-color: #ffffff }
 
@@ -155,6 +161,10 @@ a.session-link { font-size: 12px; font-weight: bold }
 .item-content p.item-phone { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0 }
 
 @media screen and (min-width: 767px) {
+	.row-historia .historia-content { height: 614px; position: relative }
+	.row-historia h3.session-title { margin-top: 24px }
+	.row-historia p.session-content { margin-top: 32px; margin-bottom: 32px }
+
 	.session-atuacao-destaques { background-color: #242367 }
 
 	.atuacao-content { height: 410px }
@@ -166,12 +176,20 @@ a.session-link { font-size: 12px; font-weight: bold }
 }
 
 @media screen and (min-width: 992px) {
+	.row-historia h3.session-title { width: 268px }
+	.row-historia p.session-content { width: 362px }
+
 	.atuacao-content .content p.session-content { width: 385px }
 
 	.atuacao-item p { font-size: 20px }
 }
 
 @media screen and (max-width: 767px) {
+	.row-historia .historia-content { height: 515px; position: relative }
+	.row-historia .historia-content h3.session-title { margin-top: 14px }
+	.row-historia .historia-content p.session-content { margin-top: 20px; margin-bottom: 20px }
+	.row-historia .historia-content h3.session-title { width: 191px; }
+	.row-historia .historia-content p.session-content { width: 251px; }
 	.row-historia { margin: 0 !important; padding: 0 !important }
 
 	.atuacao-content { background-color: #242367; height: 322px }

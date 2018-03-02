@@ -1,15 +1,46 @@
 <div id="slider" style="height: 644px;"></div>
 
 <div class="row row-historia">
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero">
-		<div class="content" style="position: absolute; width: 1320px">
-			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto">
-				<p>Texto</p>
+	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">
+		<div class="content" style="position: absolute">
+			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 historia-content">
+						<div class="position-center-vertical">
+							<p class="bread-crumb-title">o histórico</p>
+							<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
+							<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
+							<a href="<?= RAIZSITE ?>" class="session-link hidden-xs">saiba mais</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/img-marcacao-home.jpg'); background-size: cover; background-repeat: no-repeat; height: 614px"></div>
+	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs" style="background: url('<?= RAIZSITE ?>/img/img-marcacao-home.jpg'); background-size: cover; background-repeat: no-repeat; height: 614px"></div>
+
+	<div class="hidden-lg hidden-md container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 historia-content">
+				<div class="position-center-vertical">
+					<p class="bread-crumb-title">o histórico</p>
+					<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
+					<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
+					<a href="<?= RAIZSITE ?>" class="session-link">saiba mais</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+<script type="text/javascript">
+	var width = $(window).innerWidth();
+	$(".content").css("width", width+17);
+
+	$(window).resize(function(){
+		var width = $(window).innerWidth();
+		$(".content").css("width", width+17);
+	});
+</script>
 
 <div class="session-atuacao-destaques">
 	<div class="container">
