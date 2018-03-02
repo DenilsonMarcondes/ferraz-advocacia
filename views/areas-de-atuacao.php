@@ -32,6 +32,8 @@ p.paragrafo{color: #fff}
 <!--fim do container-->
 <br>
 
+<img src="img/banner-atuacao.png">
+
 <div style="background-color: #16197D;">
 	<br>
 		<br>
@@ -104,7 +106,7 @@ p.paragrafo{color: #fff}
 	</div>
 
 	<!--inicio do container-->
-			<!--inicio do container-->
+		<!--inicio do container-->
 
 	<div class="container">
 		<div class="row">
@@ -123,9 +125,33 @@ p.paragrafo{color: #fff}
 	</div>
 		<!--fim do container-->
 		<br>
-			<br>
-	
 </div>
+
+<br>
+
+<div class="session-atuacao-destaques">
+	<div class="container" style="background-color: ">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 atuacao-content">
+				<div class="content position-center-vertical">
+					<p class="bread-crumb-title">o que fazemos</p>
+					<h3 class="session-title">Áreas de atuação</h3>
+					<p class="session-content">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+					<a href="<?= RAIZSITE ?>" class="session-link hidden-xs">saiba mais</a>
+
+
+				</div>
+
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
 
 
 
