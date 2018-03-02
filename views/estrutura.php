@@ -28,21 +28,9 @@
 	<br>
 <br>
 
-<div class="container">
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 letras " style=" color:#fff; background-color: #16197D;">
-				<h4>Os advogados-sócios e seniores</h4>
-				<h4>atuam como diretores, capiteando as</h4>
-				<h4>equipes, também divididas por clientes</h4>
-				<h4>e especialidades</h4>
 
-				<br>
-					<br>
-				<h5>O conselho diretor é formado pelos sócios, que</h5>
-				<h5>decidem a estratégia de todo o escritório. Cada filial</h5>
-				<h5>possui um advogado gestor responsável que, </h5>
-				<h5>juntamente com sua equipe, está preparado para </h5>
-				<h5>atender todas as demandas dos nossos clientes </h5>
-				<h5>localmente </h5>
-	</div> 	
+ </b>
 </div>
+
+
 

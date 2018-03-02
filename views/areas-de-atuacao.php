@@ -1,7 +1,7 @@
 <style type="text/css">
 h4.texto{color: #16197D}
 h4.letras{color: #fff}	
-h3{color: #16197D}
+h3{color: #16197D;}
 p.paragrafo{color: #fff}
 </style>
 
@@ -104,8 +104,11 @@ p.paragrafo{color: #fff}
 	</div>
 
 	<!--inicio do container-->
+			<!--inicio do container-->
+
 	<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0px;">
 				<br>
 					<br>
 				<h3><b>Prêmios</b></h3>
@@ -115,20 +118,13 @@ p.paragrafo{color: #fff}
 				<br>
 				<a style="color:#16197D; color: bold; " href="premios.html"><b>Saiba mais ></b></a><br>
 				<br>
-				<div style="background-color: #16197D;" class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<h4 style="color: #fff;">O escritório tem como</h4>
-						<h4 style="color: #fff;">sócios-titulares</h4>
-						<br>
-						<p class="paragrafo">advogados especializados em diversas áreas</p><br>
-						<a style="color:#fff; color: bold; " href="#">saiba mais ></a>
-					</div>
-				</div>
-			</div>	
+			</div>
 		</div>
+	</div>
 		<!--fim do container-->
-		
 		<br>
+			<br>
+	
 </div>
 
 
