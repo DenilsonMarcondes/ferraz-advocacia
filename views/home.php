@@ -1,5 +1,16 @@
 <div id="slider" style="height: 644px;"></div>
 
+<div class="row row-historia">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero">
+		<div class="content" style="position: absolute; width: 1320px">
+			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto">
+				<p>Texto</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/img-marcacao-home.jpg'); background-size: cover; background-repeat: no-repeat; height: 614px"></div>
+</div>
+
 <div class="session-atuacao-destaques">
 	<div class="container">
 		<div class="row">
