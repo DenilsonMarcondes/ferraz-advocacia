@@ -2,6 +2,12 @@
 	@media screen and (min-width: 767px) {
 		.navbar-default .navbar-nav>li>a { font-size: 14px; color: #242367 }
 		.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { font-weight: 700; color: #242367 }
+
+		.margin-header { margin-top: 100px }
+	}
+	@media screen and (max-width: 768px) {
+		.navbar-default { border-color: inherit }
+		.margin-header { margin-top: 73px }
 	}
 </style>
 <nav class="navbar navbar-default navbar-fixed-top">
