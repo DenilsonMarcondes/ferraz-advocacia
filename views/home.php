@@ -1,4 +1,4 @@
-<div id="slider" style="height: 644px;"></div>
+<div class="banner-marcacao-topo margin-header" style="background: url('<?= RAIZSITE ?>/img/img-banner-topo-marcacao-desk.jpg'); background-position: center center; background-size: cover"></div>
 
 <div class="row row-historia">
 	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">

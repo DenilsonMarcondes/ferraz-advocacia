@@ -161,6 +161,8 @@ a.session-link { font-size: 12px; font-weight: bold }
 .item-content p.item-phone { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0 }
 
 @media screen and (min-width: 767px) {
+	.banner-marcacao-topo { height: 644px }
+
 	.row-historia .historia-content { height: 614px; position: relative }
 	.row-historia h3.session-title { margin-top: 24px }
 	.row-historia p.session-content { margin-top: 32px; margin-bottom: 32px }
@@ -185,6 +187,8 @@ a.session-link { font-size: 12px; font-weight: bold }
 }
 
 @media screen and (max-width: 767px) {
+	.banner-marcacao-topo { height: 367px }
+
 	.row-historia .historia-content { height: 515px; position: relative }
 	.row-historia .historia-content h3.session-title { margin-top: 14px }
 	.row-historia .historia-content p.session-content { margin-top: 20px; margin-bottom: 20px }
