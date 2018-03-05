@@ -4,6 +4,8 @@
 	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">
 		<div class="content" style="position: absolute">
 			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px">
+				<div class="line hidden-xs"></div>
+
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 historia-content">
 						<div class="position-center-vertical">

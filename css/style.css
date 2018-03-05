@@ -44,6 +44,8 @@ a.session-link { font-size: 12px; font-weight: bold }
 
 .rotate { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); -webkit-transition: 0.5s; transition: 0.5s }
 
+.line { border: 0.5px solid #242367; position: absolute }
+
 @media screen and (min-width: 768px) {
 	p.bread-crumb-title { font-size: 14px }
 	h3.session-title,
@@ -138,6 +140,7 @@ a.session-link { font-size: 12px; font-weight: bold }
 .row-historia p.session-content { color: #4a4a4a }
 .row-historia a.session-link { color: #242367; font-weight: normal; font-size: 12px }
 .row-historia a.session-link:hover { font-weight: bold }
+.row-historia .line { width: 54%; top: 100px; margin-left: 90px }
 
 /* ÁREAS DE ATUAÇÃO */
 .session-atuacao { background-color: #ffffff }

@@ -5,6 +5,7 @@
 		==============
 	*/
 	.session-premios { background-color: #f5f5f5 }
+	.session-premios .line { width: 94%; top: 9px }
 	@media screen and (min-width: 768px) {
 		.session-premios { padding-top: 133px; padding-bottom: 133px }
 		.session-premios h3 { margin-top: 37px; width: 268px }
@@ -25,7 +26,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
-				<div class="line hidden-xs" style="border: 0.5px solid #242367; position: absolute; width: 94%; top: 9px"></div>
+				<div class="line hidden-xs"></div>
 
 				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">nossos premios</p>
 				<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
