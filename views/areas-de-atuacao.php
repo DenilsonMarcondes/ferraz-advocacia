@@ -5,10 +5,10 @@ h3{color: #16197D;}
 p.paragrafo{color: #fff}
 </style>
 
-<h5>teste</h5>
-<h5>teste</h5>
-<h5>teste</h5>
-<h5>teste</h5>
+<h5>.</h5>
+<h5>.</h5>
+<h5>.</h5>
+<h5>.</h5>
 
 <!--inicio do container-->
 <div class="container texto">
@@ -20,11 +20,11 @@ p.paragrafo{color: #fff}
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
 		<div class="row">
-				<h5 style="color: #A9A9A9">O que fazemos</h5>
-				<h5><b>O escritório tem especialidades nas áreas de direito</b></h5>
-				<h5><b>Bancário, fomento mercantil e empresarial, tanto</b></h5>
-				<h5><b>na recuperação de créditos, quanto na defesa de</b></h5>
-				<h5><b>ações cíveis.</b></h5>
+				<h5 class="bread-crumb-title" style="color: #A9A9A9">O que fazemos</h5>
+				<h5 class="session-content"><b>O escritório tem especialidades nas áreas de direito</b></h5>
+				<h5 class="session-content"><b>Bancário, fomento mercantil e empresarial, tanto</b></h5>
+				<h5 class="session-content"><b>na recuperação de créditos, quanto na defesa de</b></h5>
+				<h5 class="session-content"><b>ações cíveis.</b></h5>
 			</div>
 		</div>
   	</div>
@@ -32,7 +32,7 @@ p.paragrafo{color: #fff}
 <!--fim do container-->
 <br>
 
-<img src="img/banner-atuacao.png">
+<img src="img/banner-atuacao.png" width="100%">
 
 <div style="background-color: #16197D;">
 	<br>

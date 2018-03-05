@@ -10,16 +10,16 @@
 <div class="container texto">
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
-				<h3><b>Estrutura</b></h3>
-				<h3><b>Organizacional</h3>
+				<h3 class="session-title"><b>Estrutura</b></h3>
+				<h3 class="session-title"><b>Organizacional</b></h3>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
 		<div class="row">
-				<h5 style="color: #A9A9A9">nossa estrutura</h5>
-				<h5><b>A estrutura organizacional do escritório permite a </b></h5>
-				<h5><b>prestação de serviço personalizado a cada um dos</b></h5>
-				<h5><b>clientes, bem como às diversas especies de</b></h5>
-				<h5><b>carteiras de processos/contratos.</b></h5>
+				<h5 class="bread-crumb-title" style="color: #A9A9A9">nossa estrutura</h5>
+				<h5 class="session-content"><b>A estrutura organizacional do escritório permite a </b></h5>
+				<h5 class="session-content"><b>prestação de serviço personalizado a cada um dos</b></h5>
+				<h5 class="session-content"><b>clientes, bem como às diversas especies de</b></h5>
+				<h5 class="session-content"><b>carteiras de processos/contratos.</b></h5>
 		</div>
 	</div>
   </div>
@@ -27,6 +27,8 @@
 		<br>
 	<br>
 <br>
+
+<img src="img/socios.png" width="100%">
 
 <div class="session-estrutura hidden-xs">
 	<div class="container">
@@ -56,6 +58,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="row row-second">
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">02</p>
