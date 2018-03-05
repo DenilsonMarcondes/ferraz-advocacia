@@ -1,4 +1,4 @@
-<div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/advocacia.png'); background-position: center center; background-size: cover"></div>
+<div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-3.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
 
 <div class="container hidden-xs">
 	<div class="row row-list">
@@ -89,7 +89,7 @@
 
 					<div class="phones">
 						<p>Tel.: 47 2102 7150</p>
-						<p>Tel.: 47 3326 3299</p>
+						<p>47 3326 3299</p>
 					</div>
 				</div>
 
@@ -298,7 +298,7 @@
 						</div>
 						<div class="col-xs-10 padding-zero">
 							<p class="description">Tel.: 47 2102 7150</p>
-							<p class="description">Tel.: 47 3326 3299</p>
+							<p class="description" style="margin-left: 25.5px">47 3326 3299</p>
 						</div>
 					</div>
 
@@ -418,7 +418,16 @@
 	</div>
 </div>
 
-<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/advogados.png'); background-position: center center; background-size: cover"></div>
+<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
+	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
+
+	<div class="position-center-center">
+		<div class="parallax-title">
+			<p>O ESCRITÓRIO TEM COMO SÓCIOS-titulares ADVOGADOS ESPECIALIZADOS em diversas áreas</p>
+		</div><br>
+		<a class="parallax-link" href="<?= RAIZSITE ?>/equipe">conheça a nossa equipe</a>
+	</div>
+</div>
 
 <script type="text/javascript">
 	$(".hidden-filiais#matrizCuritiba").hide();

@@ -49,9 +49,13 @@ a.session-link { font-size: 12px; font-weight: bold }
 	h3.session-title,
 	p.session-title { font-size: 30px }
 	p.session-content { line-height: 1.79; font-size: 14px }
+	p.session-content-alternative { line-height: 1.8; font-size: 19px }
 
 	.parallax-to-action,
 	.parallax-to-action-filter { height: 410px }
+
+	.parallax-topo,
+	.parallax-topo .parallax-filter { height: 295px }
 }
 @media screen and (min-width: 992px) {
 	.container { width: 960px !important }
@@ -67,9 +71,13 @@ a.session-link { font-size: 12px; font-weight: bold }
 	h3.session-title,
 	p.session-title { font-size: 20px }
 	p.session-content { line-height: 1.83; font-size: 12px }
+	p.session-content-alternative { line-height: 1.63; font-size: 16px }
 
 	.parallax-to-action,
 	.parallax-to-action-filter { height: 344px }
+
+	.parallax-topo,
+	.parallax-topo .parallax-filter { height: 120px }
 }
 
 /*
@@ -162,6 +170,8 @@ a.session-link { font-size: 12px; font-weight: bold }
 .item-content p.item-address { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0; padding-bottom: 10px }
 .item-content p.item-phone { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0 }
 .item-content p.item-phone:nth-child(2) { margin-left: 30.5px }
+.phones p { margin: 0 }
+.phones p:nth-child(2) { margin-left: 30.5px }
 
 .parallax-title p { font-family: Roboto, sans-serif; color: #f5f5f5; text-transform: uppercase; font-weight: 500; margin: 0 }
 a.parallax-link { color: #f5f5f5; font-weight: 500; font-size: 12px; margin-top: 24px }

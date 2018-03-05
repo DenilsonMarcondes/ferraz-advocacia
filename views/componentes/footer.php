@@ -112,7 +112,7 @@
 							</div>
 							<div class="col-xs-10 padding-zero">
 								<p class="description">Tel.: 47 2102 7150</p>
-								<p class="description">47 3326 3299</p>
+								<p class="description" style="margin-left: 25.5px">47 3326 3299</p>
 							</div>
 						</div>
 					</div>
