@@ -7,6 +7,9 @@
 	.session-atuacao-conteudo { background-color: #f5f5f5 }
 	.session-atuacao-conteudo .line { width: 94%; top: 9px }
 
+	.session-premios { background-color: #f5f5f5 }
+
+	.session-escritorio { background-color: #242367 }
 	@media screen and (min-width: 768px) {
 		.session-atuacao-conteudo { padding-top: 91px; padding-bottom: 91px }
 		.session-atuacao-conteudo h3 { margin-top: 37px; width: 268px }
@@ -121,40 +124,34 @@
 		<!-- fim do container-->
 
 	</div>
-	
+
+</div>
+
+<div class="session-premios">
 	<div class="container">
 		<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0px;">
-				<br>
-					<br>
-				<h3><b>Prêmios</b></h3>
-					<p>Escritório e Sócios multi-premiados e reconhecidos por</p>
-					<p>diversas instituições de grande credibilidade e renome no</p>
-					<p>mercado.</p>
-				<br>
-				<a style="color:#16197D; color: bold; " href="premios.html"><b>Saiba mais ></b></a><br>
-				<br>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="height: 320px">
+				<div class="position-center-vertical">
+					<h3 class="session-title" style="color: #242367">Prêmios</h3>
+					<p class="session-content">Escritório e Sócios multi-premiados e reconhecidos por diversas instituições de grande credibilidade e renome no mercado.</p>
+
+					<a href="premios.html" style="color: #16197D" class="session-link">Saiba mais ></a>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-<div class="session-atuacao-destaques">
-	<div class="container" style="background-color: ">
+<div class="session-escritorio">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 atuacao-content">
-				<div class="content position-center-vertical">
-					<p class="bread-crumb-title">o que fazemos</p>
-					<h3 class="session-title">Áreas de atuação</h3>
-					<p class="session-content">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="height: 311px">
+				<div class="position-center-vertical">
+					<h3 class="session-title">O escritório tem como sócios-titulares</h3>
+					<p class="session-content">advogados especializados em diversas áreas.</p>
+
 					<a href="<?= RAIZSITE ?>" class="session-link hidden-xs">saiba mais</a>
-
-
 				</div>
-
 			</div>
-
-			
 		</div>
 	</div>
 </div>
