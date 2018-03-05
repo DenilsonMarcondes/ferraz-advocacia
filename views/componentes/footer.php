@@ -180,27 +180,27 @@
 			<div class="menu-mobile-rodape hidden-lg hidden-md hidden-sm">
 				<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-li">
 					<div class="container">
-						<a href="<?= RAIZSITE ?>/sobre"><p>Quem somos</p></a>
+						<a href="<?= RAIZSITE ?>/quem-somos"><p>Quem somos</p></a>
 					</div>
 				</div>
 				<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-li">
 					<div class="container">
-						<a href="<?= RAIZSITE ?>/contato"><p>Áreas de atuação</p></a>
+						<a href="<?= RAIZSITE ?>/areas-de-atuacao"><p>Áreas de atuação</p></a>
 					</div>
 				</div>
 				<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-li">
 					<div class="container">
-						<a href="<?= RAIZSITE ?>/sobre"><p>Estrutura</p></a>
+						<a href="<?= RAIZSITE ?>/estrutura"><p>Estrutura</p></a>
 					</div>
 				</div>
 				<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-li">
 					<div class="container">
-						<a href="<?= RAIZSITE ?>/sobre"><p>Prêmios</p></a>
+						<a href="<?= RAIZSITE ?>/premios"><p>Prêmios</p></a>
 					</div>
 				</div>
 				<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-li">
 					<div class="container">
-						<a href="<?= RAIZSITE ?>/sobre"><p>Contato</p></a>
+						<a href="<?= RAIZSITE ?>/contato"><p>Contato</p></a>
 					</div>
 				</div>
 			</div>

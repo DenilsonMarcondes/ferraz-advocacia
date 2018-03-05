@@ -1,3 +1,33 @@
+<?php
+	$uri = $_SERVER['REQUEST_URI'];
+	$server = $_SERVER['HTTP_HOST'];
+    $uri_array = explode("/", $uri);
+    $conta = count($uri_array);
+
+    $pagina_atual = "";
+    /* LOCALHOST AND LOCALHOST:8080 */
+    if($server == "localhost:8080" || $server == "localhost") {
+	    if($conta >= 3) {
+	    	$string_recebida = $uri_array[2];
+
+	    	if($string_recebida == "" || $string_recebida == NULL) {
+	    		$pagina_atual = "home";
+	    	} else {
+	    		$pagina_atual = $string_recebida;
+	    	}
+	    }
+	} else if($server = "comberweb.com.br") {
+		if($conta >= 3) {
+	    	$string_recebida = $uri_array[3];
+
+	    	if($string_recebida == "" || $string_recebida == NULL) {
+	    		$pagina_atual = "home";
+	    	} else {
+	    		$pagina_atual = $string_recebida;
+	    	}
+	    }
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -39,7 +39,7 @@
 	</div>
 </div>
 
-<img src="<?= RAIZSITE ?>/img/premios.png">
+<img src="<?= RAIZSITE ?>/img/premios.png" class="hidden-xs">
 
 <div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>

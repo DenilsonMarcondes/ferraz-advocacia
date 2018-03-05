@@ -1,7 +1,9 @@
 <style type="text/css">
 	@media screen and (min-width: 767px) {
 		.navbar-default .navbar-nav>li>a { font-size: 14px; color: #242367 }
-		.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { font-weight: 700; color: #242367 }
+		.navbar-default .navbar-nav>li>a:focus,
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
 
 		.margin-header { margin-top: 100px }
 	}
@@ -27,11 +29,11 @@
 		<div style="" id="navbar" class="navbar-collapse collapse">
 			<!-- Inicio Navbar do projeto -->
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="<?= RAIZSITE ?>/quem-somos">Quem somos</a></li>
-				<li><a href="<?= RAIZSITE ?>/areas-de-atuacao">Areas de atuação</a></li>
-				<li><a href="<?= RAIZSITE ?>/estrutura">Estrutura</a></li>
-				<li><a href="<?= RAIZSITE ?>/premios">Prêmios</a></li>
-				<li><a href="<?= RAIZSITE ?>/contato">Contato</a></li>
+				<li><a href="<?= RAIZSITE ?>/quem-somos" class="<?= ($pagina_atual == 'quem-somos') ? 'link-active' : '' ?>">Quem somos</a></li>
+				<li><a href="<?= RAIZSITE ?>/areas-de-atuacao" class="<?= ($pagina_atual == 'areas-de-atuacao') ? 'link-active' : '' ?>">Áreas de atuação</a></li>
+				<li><a href="<?= RAIZSITE ?>/estrutura" class="<?= ($pagina_atual == 'estrutura') ? 'link-active' : '' ?>">Estrutura</a></li>
+				<li><a href="<?= RAIZSITE ?>/premios" class="<?= ($pagina_atual == 'premios') ? 'link-active' : '' ?>">Prêmios</a></li>
+				<li><a href="<?= RAIZSITE ?>/contato" class="<?= ($pagina_atual == 'contato') ? 'link-active' : '' ?>">Contato</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
