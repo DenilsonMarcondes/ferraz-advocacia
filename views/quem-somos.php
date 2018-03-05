@@ -130,35 +130,35 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcio.jpg'); height: 264px; background-position: center"></div>
 				<div class="conteudo">
-					<h3>Valeria caramuru cicarelli</h3>
-					<span>(in memoriam)</span>
-					<p>Inscrita na OAB/PR sob o n. 25.474, formou-se pela Faculdade de Direito de Curitiba, com especialização em Direito Processual Civil, concluindo o curso em 1997. Cursou a Escola do Ministério Público no ano de 1998.</p>
+					<h3>márcio rubens passold</h3>
+					<span>&nbsp;</span>
+					<p>Inscrito na OAB/SC sob o n. 12.826, na OAB/PR sob o n. 37.600 e na OAB/SP sob o n. 382.496, formou-se em Direito pela FURB - Fundação Universidade Regional de Blumenau.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/leonardo.jpg'); height: 264px; background-position: center"></div>
 				<div class="conteudo">
-					<h3>Valeria caramuru cicarelli</h3>
-					<span>(in memoriam)</span>
-					<p>Inscrita na OAB/PR sob o n. 25.474, formou-se pela Faculdade de Direito de Curitiba, com especialização em Direito Processual Civil, concluindo o curso em 1997. Cursou a Escola do Ministério Público no ano de 1998.</p>
+					<h3>LEONARDO XAVIER ROUSSENQ</h3>
+					<span>&nbsp;</span>
+					<p>Inscrito na OAB/PR sob o n. 25.661, na OAB/SC sob o n. 45.745, na OAB/SP sob o n. 382.491 e na OAB/MT sob o n. 22.385/A, formou-se em Direito pela Pontifícia Universidade Católica do Paraná.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/maria.jpg'); height: 264px; background-position: center"></div>
 				<div class="conteudo">
-					<h3>Valeria caramuru cicarelli</h3>
-					<span>(in memoriam)</span>
-					<p>Inscrita na OAB/PR sob o n. 25.474, formou-se pela Faculdade de Direito de Curitiba, com especialização em Direito Processual Civil, concluindo o curso em 1997. Cursou a Escola do Ministério Público no ano de 1998.</p>
+					<h3>maria angela keiko taira</h3>
+					<span>&nbsp;</span>
+					<p>Inscrita na OAB/PR sob o n. 34.433, na OAB/SC sob o n. 45.743 e na OAB/SP sob o n. 194.240, formou-se em Direito pela Faculdade de Direito da Alta Paulista.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/felipe.jpg'); height: 264px; background-position: center"></div>
 				<div class="conteudo">
-					<h3>Valeria caramuru cicarelli</h3>
-					<span>(in memoriam)</span>
-					<p>Inscrita na OAB/PR sob o n. 25.474, formou-se pela Faculdade de Direito de Curitiba, com especialização em Direito Processual Civil, concluindo o curso em 1997. Cursou a Escola do Ministério Público no ano de 1998.</p>
+					<h3>felipe sá ferreira</h3>
+					<span>&nbsp;</span>
+					<p>Inscrito na OAB/SC sob o n. 17.611, na OAB/PR sob o n. 60.109 e na OAB/SP sob o n. 382.482, formou-se em Direito pela FURB - Fundação Universidade Regional de Blumenau.</p>
 				</div>
 			</div>
 		</div>
