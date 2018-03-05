@@ -4,6 +4,10 @@
 
 	.session-equipe { background-color: #f5f5f5 }
 
+	.session-premios p.session-content { color: #4a4a4a }
+	.session-premios a.session-link:focus,
+	.session-premios a.session-link:hover { border-bottom: 1px solid #242367; }
+
 	@media screen and (min-width: 768px) {
 		.session-chamada h3.session-title { width: 268px; color: #242367 }
 		.session-chamada .row-chamada { margin-top: 45px; margin-bottom: 45px }
@@ -32,9 +36,17 @@
 		.session-equipe .membro .imagem h3 { font-size: 30px; font-family: 'Roboto', sans-serif; line-height: 1.2; color: #242367; margin: 0; font-weight: 500; width: 212px }
 		.session-equipe .membro .imagem p { font-size: 14px; line-height: 1.79; color: #4a4a4a; width: 268px; margin-top: 10px }
 
-		.session-equipe .membro .conteudo h3 { font-size: 20px; font-family: 'Roboto', sans-serif; line-height: 1; color: #242367; text-transform: uppercase; margin: 0; margin-top: 28px }
+		.session-equipe .membro .conteudo h3 { font-size: 20px; font-family: 'Roboto', sans-serif; line-height: 1; color: #242367; text-transform: uppercase; margin: 0; margin-top: 28px; width: 212px }
 		.session-equipe .membro .conteudo span { font-size: 12px; font-family: 'Roboto', sans-serif; line-height: 1.67; color: #242367; font-style: italic; }
-		.session-equipe .membro .conteudo p { font-size: 14px; line-height: 1.79; color: #4a4a4a; margin-bottom: 40px; margin-top: 5px }
+		.session-equipe .membro .conteudo p { font-size: 14px; line-height: 1.79; color: #4a4a4a; margin-bottom: 40px; margin-top: 5px; height: 150px }
+
+		.session-premios .col-conteudo { height: 320px }
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px; width: 382px }
+
+		.session-escritorio .col-conteudo { height: 311px }
+		.session-escritorio h3.session-title { width: 323px }
+		.session-escritorio p.session-content { margin-top: 21px; margin-bottom: 15px; width: 302px }
 	}
 </style>
 
@@ -159,6 +171,35 @@
 					<h3>felipe sá ferreira</h3>
 					<span>&nbsp;</span>
 					<p>Inscrito na OAB/SC sob o n. 17.611, na OAB/PR sob o n. 60.109 e na OAB/SP sob o n. 382.482, formou-se em Direito pela FURB - Fundação Universidade Regional de Blumenau.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="session-escritorio" style="background-color: #242367">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">
+				<div class="position-center-vertical">
+					<h3 class="session-title" style="color: #f5f5f5">Áreas de atuação</h3>
+					<p class="session-content" style="color: #f5f5f5">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+
+					<a href="<?= RAIZSITE ?>" class="session-link" style="color: #f5f5f5">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="session-premios" style="background-color: #f5f5f5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">
+				<div class="position-center-vertical">
+					<h3 class="session-title" style="color: #242367">Prêmios</h3>
+					<p class="session-content">Escritório e Sócios multi-premiados e reconhecidos por diversas instituições de grande credibilidade e renome no mercado.</p>
+
+					<a href="premios.html" style="color: #16197D" class="session-link">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
 				</div>
 			</div>
 		</div>

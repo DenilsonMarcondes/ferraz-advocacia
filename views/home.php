@@ -1,6 +1,7 @@
 <div class="banner-marcacao-topo margin-header" style="background: url('<?= RAIZSITE ?>/img/img-banner-topo-marcacao-desk.jpg'); background-position: center center; background-size: cover"></div>
 
 <div class="row row-historia">
+	<!--
 	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">
 		<div class="content" style="position: absolute">
 			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px">
@@ -20,17 +21,19 @@
 		</div>
 	</div>
 	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs" style="background: url('<?= RAIZSITE ?>/img/img-marcacao-home.jpg'); background-size: cover; background-repeat: no-repeat; height: 614px"></div>
+-->
 
-	<div class="hidden-lg hidden-md container">
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-xs-12 historia-content">
+			<div class="col-lg-6 col-md-6 col-sm-6 historia-content">
 				<div class="position-center-vertical">
 					<p class="bread-crumb-title">o histórico</p>
 					<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
 					<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
-					<a href="<?= RAIZSITE ?>" class="session-link">saiba mais</a>
+					<a href="<?= RAIZSITE ?>" class="session-link">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
 				</div>
 			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">&nbsp;</div>
 		</div>
 	</div>
 </div>
