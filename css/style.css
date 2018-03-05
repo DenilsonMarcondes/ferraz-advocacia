@@ -45,6 +45,7 @@ a.session-link { font-size: 12px; font-weight: bold }
 .rotate { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); -webkit-transition: 0.5s; transition: 0.5s }
 
 .line { border: 0.5px solid #242367; position: absolute }
+p.session-content-alternative { font-family: 'Roboto', sans-serif }
 
 @media screen and (min-width: 768px) {
 	p.bread-crumb-title { font-size: 14px }
