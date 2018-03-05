@@ -1,38 +1,55 @@
 <style type="text/css">
-h4.texto{color: #16197D}
-h4.letras{color: #fff}	
-h3{color: #16197D;}
-p.paragrafo{color: #fff}
+	/*
+		==============
+		ATUAÇÃO STYLES
+		==============
+	*/
+	.session-atuacao-conteudo { background-color: #f5f5f5 }
+	.session-atuacao-conteudo .line { width: 94%; top: 9px }
+
+	@media screen and (min-width: 768px) {
+		.session-atuacao-conteudo { padding-top: 91px; padding-bottom: 91px }
+		.session-atuacao-conteudo h3 { margin-top: 37px; width: 268px }
+		.session-atuacao-conteudo p.session-content-alternative { margin-top: 15px }
+
+		.session-socios p.session-content { margin-top: 40px }
+		.session-socios .col-conteudo { height: 519px; position: relative; }
+		.session-socios .col-conteudo .position-center-vertical { width: 340px }
+	}
+	@media screen and (max-width: 768px) {
+		.session-atuacao-conteudo { padding-top: 63px; padding-bottom: 63px }
+		.session-atuacao-conteudo h3 { margin-top: 15px; width: 191px }
+		.session-atuacao-conteudo p.session-content-alternative { margin-top: 21px }
+
+		.session-socios p.session-content { margin-top: 20px }
+		.session-socios .col-conteudo { height: 441px; position: relative; }
+	}
 </style>
 
-<h5>.</h5>
-<h5>.</h5>
-<h5>.</h5>
-<h5>.</h5>
-
-<!--inicio do container-->
-<div class="container texto">
-	<div class="row">
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
-				<h4><b>Ferraz | Cicarelli &</b></h4>
-				<h4><b>Passold Advogados</b></h4>
-				<h4><b>Associados</b></h4>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 texto" style="color: #16197D">
-		<div class="row">
-				<h5 class="bread-crumb-title" style="color: #A9A9A9">O que fazemos</h5>
-				<h5 class="session-content"><b>O escritório tem especialidades nas áreas de direito</b></h5>
-				<h5 class="session-content"><b>Bancário, fomento mercantil e empresarial, tanto</b></h5>
-				<h5 class="session-content"><b>na recuperação de créditos, quanto na defesa de</b></h5>
-				<h5 class="session-content"><b>ações cíveis.</b></h5>
-			</div>
-		</div>
-  	</div>
+<div class="parallax-topo margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
+	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.34"></div>
 </div>
-<!--fim do container-->
-<br>
 
-<img src="img/banner-atuacao.png" width="100%">
+<div class="session-atuacao-conteudo">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
+				<div class="line hidden-xs"></div>
+
+				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">nossos premios</p>
+				<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
+				<p class="bread-crumb-title hidden-xs" style="color: #A9A9A9">nossa estrutura</p>
+				<p class="session-content-alternative">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+			</div>
+	  	</div>
+	</div>
+</div>
+
+<div class="hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; height: 188px">
+	<div class="hidden-xs" style="background: #242367; width: 100%; opacity: 0.34; height: 188px"></div>
+</div>
 
 <div style="background-color: #16197D;">
 	<br>
@@ -104,10 +121,7 @@ p.paragrafo{color: #fff}
 		<!-- fim do container-->
 
 	</div>
-
-	<!--inicio do container-->
-		<!--inicio do container-->
-
+	
 	<div class="container">
 		<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0px;">
@@ -123,11 +137,7 @@ p.paragrafo{color: #fff}
 			</div>
 		</div>
 	</div>
-		<!--fim do container-->
-		<br>
 </div>
-
-<br>
 
 <div class="session-atuacao-destaques">
 	<div class="container" style="background-color: ">
