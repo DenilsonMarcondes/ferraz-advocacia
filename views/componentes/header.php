@@ -1,5 +1,6 @@
 <style type="text/css">
 	@media screen and (min-width: 767px) {
+		.navbar-default { background-color: #ffffff; border: none; }
 		.navbar-default .navbar-nav>li>a { font-size: 14px; color: #242367 }
 		.navbar-default .navbar-nav>li>a:focus,
 		.navbar-default .navbar-nav>li>a:hover,
