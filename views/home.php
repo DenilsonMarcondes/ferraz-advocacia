@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-<div class="row row-historia">
+<div class="row-historia">
 	<!--
 	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">
 		<div class="content" style="position: absolute">
@@ -293,11 +293,10 @@
 		}).owlCarousel({
 			items:1,
 		    margin:10,
-		    /*
 		    autoplay:true,
     		autoplayTimeout:5000,
     		loop:true,
-    		*/
+    		dots:false
 		})
 	});
 </script>

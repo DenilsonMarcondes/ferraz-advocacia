@@ -28,12 +28,13 @@
 		.session-historico .col-tab .tab-title { line-height: 1.2; font-size: 30px; font-weight: 500 }
 		.session-historico .col-tab .tab-description { line-height: 1.79; font-size: 14px }
 
-		.session-historico .col-missao .nav-tabs { float: right; margin-top: -40px; margin-right: 20px; border: none; }
+		.session-historico .col-missao .nav-tabs { float: left; margin-top: -40px; margin-left: 30px; border: none; }
 		.session-historico .col-missao .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
 		.session-historico .col-missao .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
 
 		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover { color: #ffffff !important; border-bottom: 1px solid #ffffff !important; background-color: transparent; border-radius: 0; border: none; }
-		.nav>li>a:focus, .nav>li>a:hover { background-color: transparent; border: none; border-radius: 0; }
+		.nav>li>a:focus, .nav>li>a:hover { background-color: transparent; border-radius: 0 }
+		.nav-tabs>li>a:hover { border-color: transparent }
 
 		.session-equipe { padding-top: 110px; padding-bottom: 110px }
 		.session-equipe .membro:first-child,
@@ -96,21 +97,21 @@
 				<div class="col-tab">
 					<div class="tab-content">
 						<div id="missao" class="tab-pane fade in active">
-							<div class="position-center-center">
+							<div style="padding: 98px 30px">
 								<p class="tab-title">Missão</p>
 								<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
 							</div>
 						</div>
 
 						<div id="visao" class="tab-pane fade">
-							<div class="position-center-center">
+							<div style="padding: 98px 30px">
 								<p class="tab-title">Visão</p>
 								<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
 							</div>
 						</div>
 
 						<div id="valores" class="tab-pane fade">
-							<div class="position-center-center">
+							<div style="padding: 98px 30px">
 								<p class="tab-title">Valores</p>
 								<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
 							</div>
