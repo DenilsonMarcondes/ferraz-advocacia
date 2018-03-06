@@ -1,4 +1,19 @@
-<div class="banner-marcacao-topo margin-header" style="background: url('<?= RAIZSITE ?>/img/img-banner-topo-marcacao-desk.jpg'); background-position: center center; background-size: cover"></div>
+<style type="text/css">
+	span#info { right: 0 }
+</style>
+
+<div class="hidden-xs" style="position: relative">
+	<div class="position-center-vertical" style="right: 50px; z-index: 999">
+		<div class="slider-vertical-line hidden-xs" style="height: 230px; border: 0.5px solid #ffffff; width: 0.5px; margin-left: 11px"></div>
+		<span class="hidden-xs" id="info" style="color: #ffffff; font-size: 14px"></span>
+	</div>
+	<div class="owl-carousel owl-home owl-theme">
+	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    </div>
+	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px"></div>
+	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px"></div>
+	</div>
+</div>
 
 <div class="row row-historia">
 	<!--
@@ -266,3 +281,22 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.owl-home').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+			if (!e.namespace) return
+			var carousel = e.relatedTarget
+			$('#info').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length)
+		}).owlCarousel({
+			items:1,
+		    margin:10,
+		    /*
+		    autoplay:true,
+    		autoplayTimeout:5000,
+    		loop:true,
+    		*/
+		    dots:false
+		})
+	});
+</script>
