@@ -1,5 +1,7 @@
 <style type="text/css">
-	span#info { right: 0 }
+	.owl-home .owl-dots { position: absolute; left: 50px; margin-top: -59px !important }
+	.owl-theme .owl-dots .owl-dot span { height: 2px; width: 100px }
+	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #242367 !important; }
 </style>
 
 <div class="hidden-xs" style="position: relative">
@@ -296,7 +298,6 @@
     		autoplayTimeout:5000,
     		loop:true,
     		*/
-		    dots:false
 		})
 	});
 </script>
