@@ -2,6 +2,23 @@
 	.owl-home .owl-dots { position: absolute; left: 50px; margin-top: -59px !important }
 	.owl-theme .owl-dots .owl-dot span { height: 2px; width: 100px }
 	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #242367 !important; }
+
+	@media screen and (min-width: 768px) {
+		a.btn { border-radius: 0; width: 225px }
+		a.btn.focus,
+		a.btn:focus,
+		a.btn:hover { color: #ffffff; border-bottom-color: #ffffff; box-shadow: none }
+		a.url { font-size: 14px; font-weight: 500; padding: 12px 0px; text-align: left; color: #9b9b9b; border-bottom: 1px solid #9b9b9b }
+
+		.row-carousel-hash { position: relative; margin-top: -100px; z-index: 2 }
+
+		.owl-carousel-text p { font-family: 'Roboto', sans-serif; color: #ffffff; line-height: 0.97; font-size: 36px; text-transform: uppercase }
+		.owl-carousel-text p:first-child { font-weight: 200 }
+		.owl-carousel-text p:nth-child(2) { font-weight: 600 }
+
+		a.btn-carousel { border-radius: 0; background-color: #242367; color: #ffffff; text-transform: uppercase; width: 113px; padding: 10px 20px; margin-top: 20px; -webkit-transition: 0.5s; transition: 0.5s }
+		a.btn-carousel:hover { background-color: transparent; border-color: #ffffff; -webkit-transition: 0.5s; transition: 0.5s }
+	}
 </style>
 
 <div class="hidden-xs" style="position: relative">
@@ -9,11 +26,73 @@
 		<div class="slider-vertical-line hidden-xs" style="height: 230px; border: 0.5px solid #ffffff; width: 0.5px; margin-left: 11px"></div>
 		<span class="hidden-xs" id="info" style="color: #ffffff; font-size: 14px"></span>
 	</div>
+
 	<div class="owl-carousel owl-home owl-theme">
-	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    				<div class="position-center-vertical">
+	    					<p>Desde 2001 com</p>
+	    					<p>ótimos resultados</p>
+
+	    					<a role="button" class="btn btn-carousel" href="<?= RAIZSITE ?>/quem-somos">Conhecer</a>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
 	    </div>
-	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px"></div>
-	    <div class="item item-home" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px"></div>
+	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    				<div class="position-center-vertical">
+	    					<p>Desde 2001 com</p>
+	    					<p>ótimos resultados</p>
+
+	    					<a role="button" class="btn btn-carousel" href="<?= RAIZSITE ?>/quem-somos">Conhecer</a>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="item item-home" data-hash="estrutura-organizacional" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    				<div class="position-center-vertical">
+	    					<p>Desde 2001 com</p>
+	    					<p>ótimos resultados</p>
+
+	    					<a role="button" class="btn btn-carousel" href="<?= RAIZSITE ?>/quem-somos">Conhecer</a>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row row-carousel-hash">
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<a class="btn url" data-name="o-escritorio" href="#o-escritorio">o escritório</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<a class="btn url" data-name="o-que-fazemos" href="#o-que-fazemos">o que fazemos</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<a class="btn url" data-name="estrutura-organizacional" href="#estrutura-organizacional">estrutura organizacional</a>
+		</div>
 	</div>
 </div>
 
@@ -294,9 +373,10 @@
 			items:1,
 		    margin:10,
 		    autoplay:true,
-    		autoplayTimeout:5000,
+    		autoplayTimeout:10000,
     		loop:true,
-    		dots:false
+    		dots:false,
+    		URLhashListener:true
 		})
 	});
 </script>
