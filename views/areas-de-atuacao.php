@@ -34,6 +34,21 @@
 	.session-atuacoes .col-descritivos p { width: 456px; font-size: 14px; line-height: 1.79; color: #f5f5f5; margin: 0; }
 
 	@media screen and (min-width: 768px) {
+		.navbar-default { background-color: #ffffff; border: none }
+		.navbar-default.transparent { background-color: transparent; border: none }
+
+		.navbar-default .navbar-nav>li>a { font-size: 14px }
+		.navbar-default .navbar-nav>li>a { color: #242367 }
+		.navbar-default.transparent .navbar-nav>li>a { color: #ffffff }
+
+		.navbar-default .navbar-nav>li>a:focus,
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
+
+		.navbar-default.transparent .navbar-nav>li>a:focus,
+		.navbar-default.transparent .navbar-nav>li>a:hover,
+		.navbar-default.transparent .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #ffffff; color: #ffffff }
+
 		.session-atuacao-conteudo { padding-top: 91px; padding-bottom: 91px }
 		.session-atuacao-conteudo h3 { margin-top: 37px; width: 268px }
 		.session-atuacao-conteudo p.session-content-alternative { margin-top: 15px }
@@ -75,7 +90,7 @@
 	}
 </style>
 
-<div class="parallax-topo margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
+<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
 	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.34"></div>
 </div>
 
@@ -272,6 +287,18 @@
 		} else {
 			$(".atuacao-conteudo").show();
 			$(".atuacao-conteudo svg").addClass('rotate');
+		}
+	});
+
+	$(".navbar-default").addClass("transparent");
+	$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+	$(document).scroll(function() {
+		if ($(this).scrollTop() < 290) {
+			$(".navbar-default").addClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+		} else {
+			$(".navbar-default").removeClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/ferraz-advocacia.png');
 		}
 	});
 </script>

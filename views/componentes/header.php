@@ -1,11 +1,5 @@
 <style type="text/css">
 	@media screen and (min-width: 767px) {
-		.navbar-default { background-color: #ffffff; border: none; }
-		.navbar-default .navbar-nav>li>a { font-size: 14px; color: #242367 }
-		.navbar-default .navbar-nav>li>a:focus,
-		.navbar-default .navbar-nav>li>a:hover,
-		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
-
 		.margin-header { margin-top: 100px }
 	}
 	@media screen and (max-width: 768px) {

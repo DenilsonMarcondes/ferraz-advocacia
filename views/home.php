@@ -4,6 +4,17 @@
 	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #242367 !important; }
 
 	@media screen and (min-width: 768px) {
+		.navbar-default { background-color: #ffffff; border: none }
+		.navbar-default.transparent { background-color: transparent; border: none }
+
+		.navbar-default .navbar-nav>li>a { font-size: 14px }
+		.navbar-default .navbar-nav>li>a { color: #242367 }
+		.navbar-default.transparent .navbar-nav>li>a { color: #ffffff }
+
+		.navbar-default .navbar-nav>li>a:focus,
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
+
 		a.btn { border-radius: 0; width: 225px }
 		a.btn.focus,
 		a.btn:focus,
@@ -378,5 +389,17 @@
     		dots:false,
     		URLhashListener:true
 		})
+	});
+
+	$(".navbar-default").addClass("transparent");
+	$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+	$(document).scroll(function() {
+		if ($(this).scrollTop() < 640) {
+			$(".navbar-default").addClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+		} else {
+			$(".navbar-default").removeClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/ferraz-advocacia.png');
+		}
 	});
 </script>

@@ -18,6 +18,15 @@
 	.session-premios a.session-link:hover { border-bottom: 1px solid #242367; }
 
 	@media screen and (min-width: 768px) {
+		.navbar-default { background-color: #ffffff; border: none }
+
+		.navbar-default .navbar-nav>li>a { font-size: 14px }
+		.navbar-default .navbar-nav>li>a { color: #242367 }
+
+		.navbar-default .navbar-nav>li>a:focus,
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
+
 		.session-chamada h3.session-title { width: 268px; color: #242367 }
 		.session-chamada .row-chamada { margin-top: 45px; margin-bottom: 45px }
 

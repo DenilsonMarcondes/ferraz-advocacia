@@ -1,3 +1,18 @@
+<style type="text/css">
+	@media screen and (min-width: 769px) {
+		.navbar-default { background-color: #ffffff; border: none }
+		.navbar-default.transparent { background-color: transparent; border: none }
+
+		.navbar-default .navbar-nav>li>a { font-size: 14px }
+		.navbar-default .navbar-nav>li>a { color: #242367 }
+		.navbar-default.transparent .navbar-nav>li>a { color: #ffffff }
+
+		.navbar-default .navbar-nav>li>a:focus,
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
+	}
+</style>
+
 <div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-3.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
 
 <div class="container hidden-xs">
