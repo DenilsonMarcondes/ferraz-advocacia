@@ -25,6 +25,12 @@
 		.session-premios { padding-top: 133px; padding-bottom: 133px }
 		.session-premios h3 { margin-top: 37px; width: 268px }
 		.session-premios p.session-content-alternative { margin-top: 15px }
+
+		.tarja-branca .chamada { -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); width: 260px }
+		.tarja-branca .chamada { position: absolute; left: -75px; top: 250px }
+		.tarja-branca .chamada p { font-weight: 600; margin: 0; }
+		.tarja-branca .chamada p:first-child { font-size: 14px; color: #b1b1b1 }
+		.tarja-branca .chamada p:nth-child(2) { font-size: 30px; color: #242367 }
 	}
 	@media screen and (max-width: 768px) {
 		.session-premios { padding-top: 83px; padding-bottom: 83px }
@@ -54,7 +60,24 @@
 	</div>
 </div>
 
-<img src="<?= RAIZSITE ?>/img/premios.png" class="hidden-xs">
+<div class="content">
+	<div class="tarja-branca position-center" style="height: 618px; width: 113px; background-color: #f5f5f5; z-index: 2">
+		<div class="chamada">
+			<p>escritório e sócios</p>
+			<p>multi-premiados</p>
+		</div>
+	</div>
+	<div class="owl-carousel owl-premios owl-theme">
+		<div class="item">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 618px; background-size: cover; background-position: center center"></div>
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-2.jpg'); height: 618px; background-size: cover; background-position: center center"></div>
+		</div>
+		<div class="item">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 618px; background-size: cover; background-position: center center"></div>
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-2.jpg'); height: 618px; background-size: cover; background-position: center center"></div>
+		</div>
+	</div>
+</div>
 
 <div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
@@ -195,6 +218,18 @@
 </div>
 
 <script type="text/javascript">
+	$(document).ready(function() {
+		$('.owl-premios').owlCarousel({
+			items:1,
+		    margin:10,
+		    autoplay:true,
+    		autoplayTimeout:10000,
+    		loop:true,
+    		dots:false,
+    		nav:true
+		})
+	});
+
 	$(".navbar-default").addClass("transparent");
 	$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
 	$(document).scroll(function() {
