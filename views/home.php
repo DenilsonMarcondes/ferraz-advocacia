@@ -43,7 +43,7 @@
 	</div>
 
 	<div class="owl-carousel owl-home owl-theme">
-	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-2.jpg'); background-position: center center; background-size: cover; height: 644px">
 
 	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
 
@@ -60,7 +60,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-1.jpg'); background-position: center center; background-size: cover; height: 644px">
 
 	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
 
@@ -232,11 +232,20 @@
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<div class="item" data-text="Matriz Curitiba">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			<div class="item" data-text="Filial Maringá">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
 			</div>
-			<div class="item" data-text="Matriz Teste">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			<div class="item" data-text="Filial Blumenau">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial Cascavel">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial São Paulo">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial Curitiba">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
 			</div>
 		</div>
 		<div class="buttons position-center">
@@ -420,7 +429,7 @@
 		</div>
 		<div class="row row-first">
 			<div class="col-lg-9 col-md-9 col-sm-9 hidden-xs" style="padding: 0">
-				<div class="col-lg-12 col-md-12 col-sm-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-3.jpg'); background-size: cover; background-position: top right; height: 192px; padding: 0">
+				<div class="col-lg-12 col-md-12 col-sm-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-size: cover; background-position: top right; height: 192px; padding: 0">
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
@@ -450,7 +459,7 @@
 		<div class="row row-second">
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">02</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-maringa.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Maringá</p>
 
 				<div class="item-content">
@@ -471,7 +480,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">03</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-blumenal.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Blumenau</p>
 
 				<div class="item-content">
@@ -493,7 +502,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">04</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-cascavel.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Cascavel</p>
 
 				<div class="item-content">
@@ -514,7 +523,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">05</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-sao-paulo.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial São Paulo</p>
 
 				<div class="item-content">

@@ -87,7 +87,7 @@
 		</div>
 		<div class="row row-first">
 			<div class="col-lg-9 col-md-9 col-sm-9 hidden-xs" style="padding: 0">
-				<div class="col-lg-12 col-md-12 col-sm-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-3.jpg'); background-size: cover; background-attachment: fixed; background-position: top right; height: 192px; padding: 0">
+				<div class="col-lg-12 col-md-12 col-sm-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-size: cover; background-position: top right; height: 192px; padding: 0">
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" style="border-right: 1px solid #242367; height: 100%; padding: 0">&nbsp;</div>
@@ -117,7 +117,7 @@
 		<div class="row row-second">
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">02</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-maringa.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Maringá</p>
 
 				<div class="item-content">
@@ -138,7 +138,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">03</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-blumenal.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Blumenau</p>
 
 				<div class="item-content">
@@ -160,7 +160,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">04</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-cascavel.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial Cascavel</p>
 
 				<div class="item-content">
@@ -181,7 +181,7 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col">
 				<p class="session-title number">05</p>
-				<img src="<?= RAIZSITE ?>/img/marcacao-sao-paulo.jpg" class="img-responsive">
+				<img src="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg" class="img-responsive">
 				<p class="item-title text-center">Filial São Paulo</p>
 
 				<div class="item-content">
