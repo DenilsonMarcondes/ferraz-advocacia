@@ -135,14 +135,6 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 	HOME STYLES
 	===========
 */
-/* HISTÓRIA */
-.row-historia { background-color: #f5f5f5 }
-.row-historia h3.session-title { color: #242367 }
-.row-historia p.session-content { color: #4a4a4a }
-.row-historia a.session-link { color: #242367; font-weight: normal; font-size: 12px }
-.row-historia a.session-link:hover { border-bottom: 1px solid #242367 }
-.row-historia .line { width: 54%; top: 100px; margin-left: 90px }
-
 /* ÁREAS DE ATUAÇÃO */
 .session-atuacao { background-color: #ffffff }
 .session-atuacao-destaques .atuacao-item svg,
@@ -171,23 +163,12 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 .session-estrutura .row-second .col:last-child { border-right: none }
 .session-estrutura .row-second .col .item-title { margin-top: 30px; margin-bottom: 30px }
 
-.number { color: #b1b1b1; line-height: 1.2; padding-top: 53px; padding-bottom: 23px; margin: 0; }
-.number.active { color: #242367; line-height: 1.2; padding-top: 0px; padding-bottom: 10px; margin: 0; }
-.item-title { color: #242367; text-transform: uppercase; font-size: 20px; font-weight: 500; font-family: 'Roboto', sans-serif; margin: 0 }
-.item-content p.item-address { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0; padding-bottom: 10px }
-.item-content p.item-phone { font-size: 14px; font-weight: 400; line-height: 1.43; color: #4a4a4a; margin: 0 }
-.item-content p.item-phone:nth-child(2) { margin-left: 30.5px }
-.phones p { margin: 0 }
-.phones p:nth-child(2) { margin-left: 30.5px }
-
 .parallax-title p { font-family: Roboto, sans-serif; color: #f5f5f5; text-transform: uppercase; font-weight: 500; margin: 0 }
 a.parallax-link { color: #f5f5f5; font-weight: 500; font-size: 12px; margin-top: 24px }
 a.parallax-link:hover { color: #f5f5f5; border-bottom: 1px solid #f5f5f5 }
 
 @media screen and (min-width: 767px) {
 	.banner-marcacao-topo { height: 644px }
-
-	.session-atuacao-destaques { background-color: #242367 }
 
 	.atuacao-content { height: 410px }
 	.atuacao-content .content h3.session-title { margin-top: 32px }
@@ -200,9 +181,6 @@ a.parallax-link:hover { color: #f5f5f5; border-bottom: 1px solid #f5f5f5 }
 }
 
 @media screen and (min-width: 992px) {
-	.row-historia h3.session-title { width: 268px }
-	.row-historia p.session-content { width: 362px }
-
 	.atuacao-content .content p.session-content { width: 385px }
 
 	.atuacao-item p { font-size: 20px }
@@ -210,13 +188,6 @@ a.parallax-link:hover { color: #f5f5f5; border-bottom: 1px solid #f5f5f5 }
 
 @media screen and (max-width: 767px) {
 	.banner-marcacao-topo { height: 367px }
-
-	.row-historia .historia-content { height: 515px; position: relative }
-	.row-historia .historia-content h3.session-title { margin-top: 14px }
-	.row-historia .historia-content p.session-content { margin-top: 20px; margin-bottom: 20px }
-	.row-historia .historia-content h3.session-title { width: 191px; }
-	.row-historia .historia-content p.session-content { width: 251px; }
-	.row-historia { margin: 0 !important; padding: 0 !important }
 
 	.atuacao-content { background-color: #242367; height: 322px }
 	.atuacao-content .content h3.session-title { margin-top: 19px; margin-bottom: 19px }
