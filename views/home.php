@@ -107,29 +107,48 @@
 	</div>
 </div>
 
+<style type="text/css">
+	@media screen and (min-width: 768px) {
+		.row-historia .historia-content { height: 634px; position: relative }
+		.row-historia h3.session-title { margin-top: 24px }
+		.row-historia p.session-content { margin-top: 32px; margin-bottom: 32px }
+
+
+		/*
+			=============
+			SLIDER STYLES
+			=============
+		*/
+		.row-slider .col-slider { margin-top: -634px; float: right; padding: 0 }
+
+		.tarja-branca .chamada { -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); width: 260px }
+		.tarja-branca .chamada { position: absolute; left: -75px; top: 250px }
+		.tarja-branca .chamada p { font-weight: 600; margin: 0; }
+		.tarja-branca .chamada p:first-child { font-size: 14px; color: #b1b1b1 }
+		.tarja-branca .chamada p:nth-child(2) { font-size: 30px; color: #242367 }
+
+		.owl-theme .owl-nav { position: absolute; margin-top: -75px; left: 50%; -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%) }
+		
+		.btn-owl-next:active,
+		.btn-owl-next:focus,
+		.btn-owl-next:active:focus,
+		.btn-owl-prev:active,
+		.btn-owl-prev:focus,
+		.btn-owl-prev:active:focus { outline: none; box-shadow: none }
+		.btn-owl-next { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg) }
+		.btn-owl-prev,
+		.btn-owl-next { border-radius: 0; border: none; background-color: transparent; padding: 5px 5px }
+		.btn-owl-prev svg,
+		.btn-owl-next svg { margin-bottom: -5px }
+		.btn-owl-prev:hover svg g path,
+		.btn-owl-prev:hover svg g polygon,
+		.btn-owl-next:hover svg g path,
+		.btn-owl-next:hover svg g polygon { fill: #242367 }
+
+		.buttons { position: absolute; bottom: 44px; z-index: 3 }
+	}
+</style>
 <div class="row-historia">
-	<!--
-	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs padding-zero">
-		<div class="content" style="position: absolute">
-			<div class="container-alternative" style="width: 960px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px">
-				<div class="line hidden-xs"></div>
-
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 historia-content">
-						<div class="position-center-vertical">
-							<p class="bread-crumb-title">o histórico</p>
-							<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
-							<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
-							<a href="<?= RAIZSITE ?>" class="session-link hidden-xs">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs" style="background: url('<?= RAIZSITE ?>/img/img-marcacao-home.jpg'); background-size: cover; background-repeat: no-repeat; height: 614px"></div>
--->
-
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 historia-content">
@@ -144,17 +163,54 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-	var width = $(window).innerWidth();
-	$(".content").css("width", width+17);
+<div class="row-slider hidden-xs">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-slider hidden-xs">
+		<div class="tarja-branca position-center" style="height: 634px; width: 113px; background-color: #f5f5f5; z-index: 2">
+			<div class="chamada">
+				<p>estrutura física</p>
+				<p class="owl-change-text">Matriz Curitiba</p>
+			</div>
+		</div>
+		<div class="owl-carousel owl-matrizes owl-theme">
+			<div class="item" data-text="Matriz Curitiba">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Matriz Teste">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+			</div>
+		</div>
+		<div class="buttons position-center">
+			<button type="button" class="btn btn-carousel btn-owl-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
 
-	$(window).resize(function(){
-		var width = $(window).innerWidth();
-		$(".content").css("width", width+17);
+			<button type="button" class="btn btn-carousel btn-owl-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.owl-matrizes').on('changed.owl.carousel', function(e) {
+			var owlText = $(".owl-matrizes .owl-item.active .item").attr("data-text");
+			$(".owl-change-text").html(owlText);
+		}).owlCarousel({
+			items:1,
+		    margin:10,
+		    autoplay:true,
+    		autoplayTimeout:10000,
+    		loop:true,
+    		dots:false,
+    		nav:false
+		});
+
+		$(".btn-owl-prev").click(function(event) {
+			$('.owl-matrizes').trigger('prev.owl.carousel');
+		});
+		$(".btn-owl-next").click(function(event) {
+			$('.owl-matrizes').trigger('next.owl.carousel');
+		});
 	});
 </script>
 
-<div class="session-atuacao-destaques">
+<div class="session-atuacao-destaques hidden-xs">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 atuacao-content">
@@ -165,10 +221,7 @@
 					<a href="<?= RAIZSITE ?>/areas-de-atuacao" class="session-link hidden-xs">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero">
-
-				<div class="hidden-xs" style="background-color: #ffffff; position: absolute; height: 412px; width: 800px; overflow-x: hidden !important; z-index: 0; top: -1px"></div>
-
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero" style="position: relative; z-index: 1">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 atuacao-item">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 611.994 611.994" style="enable-background:new 0 0 611.994 611.994;" xml:space="preserve"><g><g><g><path d="M306.032,611.994v-14.703l-0.023,14.703C137.29,611.994,0.012,474.722,0,305.997C0,137.272,137.272,0,305.997,0     c168.729,0,305.997,137.272,305.997,305.997C612,474.722,474.745,611.994,306.032,611.994z M305.997,29.406     c-152.51,0-276.591,124.081-276.591,276.591c0.012,152.511,124.099,276.591,276.603,276.591h0.023     c152.499,0,276.556-124.08,276.556-276.591C582.594,153.487,458.514,29.406,305.997,29.406z" fill="#242367"/><g><path d="M306.009,481.303c-55.595,0-100.833-42.621-100.833-95.004c0-8.122,6.581-14.703,14.703-14.703      s14.703,6.581,14.703,14.703c0,36.169,32.041,65.6,71.427,65.6s71.415-29.431,71.415-65.6c0-36.17-32.035-65.599-71.415-65.599      c-55.595,0-100.833-42.621-100.833-95.004c0-52.384,45.238-95.004,100.833-95.004c29.854,0,57.988,12.351,77.196,33.887      c5.404,6.063,4.869,15.355-1.188,20.76c-6.058,5.411-15.354,4.87-20.76-1.188c-13.627-15.285-33.764-24.054-55.248-24.054      c-39.38,0-71.427,29.423-71.427,65.599c0,36.169,32.041,65.598,71.427,65.598c55.596,0,100.821,42.621,100.821,95.005      C406.836,438.682,361.604,481.303,306.009,481.303z" fill="#242367"/><path d="M303.315,525.235c-8.122,0-14.703-6.581-14.703-14.703v-409.07c0-8.122,6.581-14.703,14.703-14.703      c8.123,0,14.703,6.581,14.703,14.703v409.07C318.019,518.654,311.438,525.235,303.315,525.235z" fill="#242367"/></g></g></g></g></svg>
 
@@ -200,6 +253,8 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background-color: #ffffff; position: relative; z-index: 0; height: 410px; float: right; margin-top: -410px"></div>
 </div>
 <div class="session-atuacao">
 	<div class="container">
