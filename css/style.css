@@ -159,10 +159,6 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 .session-estrutura .row-title p:first-child { font-size: 14px; font-weight: 600; color: #b1b1b1; margin: 0; }
 .session-estrutura .row-title p.session-title { color: #242367; line-height: 1.2 }
 
-.session-estrutura .row-second .col { border-right: 1px solid #242367; height: 448px }
-.session-estrutura .row-second .col:last-child { border-right: none }
-.session-estrutura .row-second .col .item-title { margin-top: 30px; margin-bottom: 30px }
-
 .parallax-title p { font-family: Roboto, sans-serif; color: #f5f5f5; text-transform: uppercase; font-weight: 500; margin: 0 }
 a.parallax-link { color: #f5f5f5; font-weight: 500; font-size: 12px; margin-top: 24px }
 a.parallax-link:hover { color: #f5f5f5; border-bottom: 1px solid #f5f5f5 }
