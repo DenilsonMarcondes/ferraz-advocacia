@@ -115,6 +115,21 @@
 	<div class="hidden-xs" style="background: #242367; width: 100%; opacity: 0.34; height: 188px"></div>
 </div>
 
+<style type="text/css">
+	/*
+		===============
+		ATUAÇÕES STYLES
+		===============
+	*/
+	@media screen and (min-width: 768px) {
+		.row-atuacoes { position: relative }
+		.row-atuacoes.active .col-titulos { position: fixed; top: 120px }
+		.row-atuacoes.active .col-descritivos { float: right }
+
+		.row-atuacoes.stay .col-titulos { position: absolute; bottom: -95px }
+		.row-atuacoes.stay .col-descritivos { float: right }
+	}
+</style>
 <div class="session-atuacoes">
 	<!--inicio do container-->
 	<div class="container">
@@ -223,6 +238,22 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 855 && $(this).scrollTop() < 2120) {
+			$(".row-atuacoes").addClass("active");
+		} else {
+			$(".row-atuacoes").removeClass("active");
+		}
+
+		if ($(this).scrollTop() > 2120) {
+			$(".row-atuacoes").removeClass("active");
+			$(".row-atuacoes").addClass("stay");
+		} else {
+			$(".row-atuacoes").removeClass("stay");
+		}
+	});
+</script>
 
 <div class="session-premios">
 	<div class="container">
@@ -252,6 +283,97 @@
 		</div>
 	</div>
 </div>
+<style type="text/css">
+	@media screen and (min-width: 768px) {
+		/*
+			=============
+			SLIDER STYLES
+			=============
+		*/
+		.row-slider .col-slider { margin-top: -631px; float: right; padding: 0 }
+
+		.tarja-branca .chamada { -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); width: 260px }
+		.tarja-branca .chamada { position: absolute; left: -75px; top: 250px }
+		.tarja-branca .chamada p { font-weight: 600; margin: 0; }
+		.tarja-branca .chamada p:first-child { font-size: 14px; color: #b1b1b1 }
+		.tarja-branca .chamada p:nth-child(2) { font-size: 30px; color: #242367 }
+
+		.owl-theme .owl-nav { position: absolute; margin-top: -75px; left: 50%; -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%) }
+		
+		.btn-owl-next:active,
+		.btn-owl-next:focus,
+		.btn-owl-next:active:focus,
+		.btn-owl-prev:active,
+		.btn-owl-prev:focus,
+		.btn-owl-prev:active:focus { outline: none; box-shadow: none }
+		.btn-owl-next { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg) }
+		.btn-owl-prev,
+		.btn-owl-next { border-radius: 0; border: none; background-color: transparent; padding: 5px 5px }
+		.btn-owl-prev svg,
+		.btn-owl-next svg { margin-bottom: -5px }
+		.btn-owl-prev:hover svg g path,
+		.btn-owl-prev:hover svg g polygon,
+		.btn-owl-next:hover svg g path,
+		.btn-owl-next:hover svg g polygon { fill: #242367 }
+
+		.buttons { position: absolute; bottom: 44px; z-index: 3 }
+	}
+</style>
+<div class="row-slider hidden-xs">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-slider hidden-xs">
+		<div class="tarja-branca position-center" style="height: 631px; width: 113px; background-color: #f5f5f5; z-index: 2">
+			<div class="chamada">
+				<p>estrutura física</p>
+				<p class="owl-change-text">Matriz Curitiba</p>
+			</div>
+		</div>
+		<div class="owl-carousel owl-matrizes owl-theme">
+			<div class="item" data-text="Filial Maringá">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial Blumenau">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial Cascavel">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial São Paulo">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+			</div>
+			<div class="item" data-text="Filial Curitiba">
+				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+			</div>
+		</div>
+		<div class="buttons position-center">
+			<button type="button" class="btn btn-carousel btn-owl-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+
+			<button type="button" class="btn btn-carousel btn-owl-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.owl-matrizes').on('changed.owl.carousel', function(e) {
+			var owlText = $(".owl-matrizes .owl-item.active .item").attr("data-text");
+			$(".owl-change-text").html(owlText);
+		}).owlCarousel({
+			items:1,
+		    margin:10,
+		    autoplay:true,
+    		autoplayTimeout:10000,
+    		loop:true,
+    		dots:false,
+    		nav:false
+		});
+
+		$(".btn-owl-prev").click(function(event) {
+			$('.owl-matrizes').trigger('prev.owl.carousel');
+		});
+		$(".btn-owl-next").click(function(event) {
+			$('.owl-matrizes').trigger('next.owl.carousel');
+		});
+	});
+</script>
 
 <script type="text/javascript">
 	$('a.principal[href*="#"]:not([href="#"])').click(function() {

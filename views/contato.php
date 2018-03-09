@@ -13,21 +13,27 @@
 	}
 </style>
 
-<div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-3.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
+<div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
 
 <div class="container hidden-xs">
 	<div class="row row-list">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-list">
 			<ul class="nav nav-tabs">
-				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba">Matriz Curitiba</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" role="tab">Filial Maringá</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" role="tab">Filial Blumenau</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" role="tab">Filial Cascavel</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" role="tab">Filial São Paulo</a></li>
+				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="marcacao-matriz-5.jpg">Matriz Curitiba</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="marcacao-matriz-1.jpg" role="tab">Filial Maringá</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" data-image="marcacao-matriz-2.jpg" role="tab">Filial Blumenau</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" data-image="marcacao-matriz-3.jpg" role="tab">Filial Cascavel</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" data-image="marcacao-matriz-4.jpg" role="tab">Filial São Paulo</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+		var target = $(e.target).attr("data-image");
+		$(".banner-topo-contact").css({"background-image":"url('<?= RAIZSITE ?>/img/"+target+"')", "background-size": "cover", "background-position": "top center"});
+	});
+</script>
 
 <div class="container hidden-xs">
 	<div class="row row-form">
