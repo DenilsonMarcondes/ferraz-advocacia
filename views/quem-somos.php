@@ -8,15 +8,6 @@
 </script>
 
 <style type="text/css">
-	.session-historico .col-tab .tab-title { font-family: 'Roboto', sans-serif; color: #f5f5f5; text-transform: uppercase }
-	.session-historico .col-tab .tab-description { color: #f5f5f5 }
-
-	.session-equipe { background-color: #f5f5f5 }
-
-	.session-premios p.session-content { color: #4a4a4a }
-	.session-premios a.session-link:focus,
-	.session-premios a.session-link:hover { border-bottom: 1px solid #242367; }
-
 	@media screen and (min-width: 768px) {
 		.navbar-default { background-color: #ffffff; border: none }
 
@@ -30,38 +21,9 @@
 		.session-chamada h3.session-title { width: 268px; color: #242367 }
 		.session-chamada .row-chamada { margin-top: 45px; margin-bottom: 45px }
 
-		.session-historico h3.session-title { width: 268px; color: #242367; margin-top: 21px; margin-bottom: 21px }
-		.session-historico p.session-content { width: 382px; color: #4a4a4a }
-
-		.session-historico .col-tab { height: 377px; position: relative; background-color: #242367 }
-		.session-historico .col-tab .tab-title { line-height: 1.2; font-size: 30px; font-weight: 500 }
-		.session-historico .col-tab .tab-description { line-height: 1.79; font-size: 14px }
-
-		.session-historico .col-missao .nav-tabs { float: left; margin-top: -40px; margin-left: 30px; border: none; }
-		.session-historico .col-missao .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
-		.session-historico .col-missao .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
-
 		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover { color: #ffffff !important; border-bottom: 1px solid #ffffff !important; background-color: transparent; border-radius: 0; border: none; }
 		.nav>li>a:focus, .nav>li>a:hover { background-color: transparent; border-radius: 0 }
 		.nav-tabs>li>a:hover { border-color: transparent }
-
-		.session-equipe { padding-top: 110px; padding-bottom: 110px }
-		.session-equipe .membro:first-child,
-		.session-equipe .membro:nth-child(2),
-		.session-equipe .membro:nth-child(3),
-		.session-equipe .membro:nth-child(5),
-		.session-equipe .membro:nth-child(6) { border-right: 1px solid #242367 }
-		.session-equipe .membro .imagem { height: 264px }
-		.session-equipe .membro .imagem h3 { font-size: 30px; font-family: 'Roboto', sans-serif; line-height: 1.2; color: #242367; margin: 0; font-weight: 500; width: 212px }
-		.session-equipe .membro .imagem p { font-size: 14px; line-height: 1.79; color: #4a4a4a; width: 268px; margin-top: 10px }
-
-		.session-equipe .membro .conteudo h3 { font-size: 20px; font-family: 'Roboto', sans-serif; line-height: 1; color: #242367; text-transform: uppercase; margin: 0; margin-top: 28px; width: 212px }
-		.session-equipe .membro .conteudo span { font-size: 12px; font-family: 'Roboto', sans-serif; line-height: 1.67; color: #242367; font-style: italic; }
-		.session-equipe .membro .conteudo p { font-size: 14px; line-height: 1.79; color: #4a4a4a; margin-bottom: 40px; margin-top: 5px; height: 150px }
-
-		.session-premios .col-conteudo { height: 320px }
-		.session-premios h3.session-title { width: 212px }
-		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px; width: 382px }
 
 		.session-escritorio .col-conteudo { height: 311px }
 		.session-escritorio h3.session-title { width: 323px }
@@ -80,16 +42,48 @@
 	</div>
 </div>
 
+<style type="text/css">
+	.session-historico .col-tab .tab-title { font-family: 'Roboto', sans-serif; color: #f5f5f5; text-transform: uppercase }
+	.session-historico .col-tab .tab-description { color: #f5f5f5 }
+
+	@media screen and (min-width: 768px) {
+		.session-historico h3.session-title { color: #242367; margin-top: 21px; margin-bottom: 21px }
+		.session-historico p.session-content { color: #4a4a4a }
+
+		.session-historico .col-tab { height: 377px; position: relative; background-color: #242367 }
+		.session-historico .col-tab .tab-title { line-height: 1.2; font-size: 30px; font-weight: 500 }
+		.session-historico .col-tab .tab-description { line-height: 1.79; font-size: 14px }
+
+		.session-historico .col-missao .nav-tabs { float: left; margin-top: -40px; margin-left: 30px; border: none; }
+		.session-historico .col-missao .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
+		.session-historico .col-missao .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
+	}
+
+	@media screen and (min-width: 1200px) {
+		.session-historico h3.session-title { width: 268px }
+		.session-historico p.session-content { width: 382px }
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.session-historico h3.session-title { width: 268px }
+		.session-historico p.session-content { width: 330px }
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.session-historico h3.session-title { width: 268px }
+		.session-historico p.session-content { width: 382px }
+	}
+</style>
 <div class="container">
 	<div style="height: 406px; background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-size: cover; background-position: center -50px"></div>
 </div>
-
+<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="position: relative; height: 377px; background-color: #242367; z-index: 0; margin-bottom: -377px"></div>
 <div class="session-historico">
 	<div class="container">
 		<div class="line hidden-xs"></div>
 
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-historico" style="padding-right: 0px">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-historico" style="padding-right: 0px; height: 616px">
 				<div style="height: 105px; background-color: #ffffff; margin-top: -105px" class="hidden-xs"></div>
 
 				<p class="bread-crumb-title">o histórico</p>
@@ -127,13 +121,52 @@
 						</div>
 					</div>
 				</div>
-
-				<div style="background: url('<?= RAIZSITE ?>/img/marcacao-5.jpg'); height: 250px; background-position: center center"></div>
 			</div>
 		</div>
 	</div>
 </div>
+<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="background: url('<?= RAIZSITE ?>/img/marcacao-5.jpg'); height: 250px; background-position: center center; margin-top: -250px"></div>
 
+
+<style type="text/css">
+	.session-equipe { background-color: #f5f5f5 }
+
+	@media screen and (min-width: 768px) {
+		.session-equipe { padding-top: 110px; padding-bottom: 110px }
+		.session-equipe .membro:first-child,
+		.session-equipe .membro:nth-child(2),
+		.session-equipe .membro:nth-child(3),
+		.session-equipe .membro:nth-child(5),
+		.session-equipe .membro:nth-child(6) { border-right: 1px solid #242367 }
+		.session-equipe .membro .imagem { height: 264px }
+		.session-equipe .membro .imagem h3 { font-size: 30px; font-family: 'Roboto', sans-serif; line-height: 1.2; color: #242367; margin: 0; font-weight: 500 }
+		.session-equipe .membro .imagem p { font-size: 14px; line-height: 1.79; color: #4a4a4a; margin-top: 10px }
+		.session-equipe .membro .conteudo h3 { font-size: 20px; font-family: 'Roboto', sans-serif; line-height: 1; color: #242367; text-transform: uppercase; margin: 0; margin-top: 28px }
+		.session-equipe .membro .conteudo span { font-size: 12px; font-family: 'Roboto', sans-serif; line-height: 1.67; color: #242367; font-style: italic; }
+		.session-equipe .membro .conteudo p { font-size: 14px; line-height: 1.79; color: #4a4a4a; margin-bottom: 40px; margin-top: 5px }
+	}
+
+	@media screen and (min-width: 1200px) {
+		.session-equipe .membro .imagem h3 { width: 212px }
+		.session-equipe .membro .imagem p { width: 268px }
+		.session-equipe .membro .conteudo h3 { width: 212px }
+		.session-equipe .membro .conteudo p { height: 150px }
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.session-equipe .membro .imagem h3 { width: 212px }
+		.session-equipe .membro .imagem p { width: auto }
+		.session-equipe .membro .conteudo h3 { width: 212px }
+		.session-equipe .membro .conteudo p { height: 180px }
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.session-equipe .membro .imagem h3 { width: 212px }
+		.session-equipe .membro .imagem p { width: 268px }
+		.session-equipe .membro .conteudo h3 { width: 212px }
+		.session-equipe .membro .conteudo p { height: 150px }
+	}
+</style>
 <div class="session-equipe" id="equipe">
 	<div class="container hidden-xs">
 		<div class="row">
@@ -153,7 +186,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/alexandre.jpg'); height: 264px; background-position: center"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg'); height: 264px; background-position: top center; background-size: cover"></div>
 				<div class="conteudo">
 					<h3>ALEXANDRE NELSON FERRAZ</h3>
 					<span>&nbsp;</span>
@@ -161,7 +194,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcio.jpg'); height: 264px; background-position: center"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg'); height: 264px; background-position: top center; background-size: cover"></div>
 				<div class="conteudo">
 					<h3>márcio rubens passold</h3>
 					<span>&nbsp;</span>
@@ -169,7 +202,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/leonardo.jpg'); height: 264px; background-position: center"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg'); height: 264px; background-position: top center; background-size: cover"></div>
 				<div class="conteudo">
 					<h3>LEONARDO XAVIER ROUSSENQ</h3>
 					<span>&nbsp;</span>
@@ -177,7 +210,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/maria.jpg'); height: 264px; background-position: center"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg'); height: 264px; background-position: top center; background-size: cover"></div>
 				<div class="conteudo">
 					<h3>maria angela keiko taira</h3>
 					<span>&nbsp;</span>
@@ -185,7 +218,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs membro">
-				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/felipe.jpg'); height: 264px; background-position: center"></div>
+				<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg'); height: 264px; background-position: top center; background-size: cover"></div>
 				<div class="conteudo">
 					<h3>felipe sá ferreira</h3>
 					<span>&nbsp;</span>
@@ -196,6 +229,31 @@
 	</div>
 </div>
 
+<style type="text/css">
+	.session-premios p.session-content { color: #4a4a4a }
+	.session-premios a.session-link:focus,
+	.session-premios a.session-link:hover { border-bottom: 1px solid #242367 }
+
+	@media screen and (min-width: 768px) {
+		.session-premios .col-conteudo { height: 320px }
+		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
+	}
+
+	@media screen and (min-width: 1200px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 382px }
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 302px }
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 382px }
+	}
+</style>
 <div class="session-escritorio" style="background-color: #242367">
 	<div class="container">
 		<div class="row">
@@ -224,3 +282,120 @@
 		</div>
 	</div>
 </div>
+
+<style type="text/css">
+	/*
+		========
+		HISTÓRIA
+		========
+	*/
+	.row-historia h3.session-title { color: #242367 }
+	.row-historia p.session-content { color: #4a4a4a }
+	.row-historia a.session-link { color: #242367; font-weight: normal; font-size: 12px }
+	.row-historia a.session-link:hover { border-bottom: 1px solid #242367 }
+	.row-historia .line { width: 54%; top: 100px; margin-left: 90px }
+
+	@media screen and (min-width: 768px) {
+		/*
+			=============
+			SLIDER STYLES
+			=============
+		*/
+		.row-slider .col-slider { margin-top: -631px; float: right; padding: 0 }
+
+		.tarja-branca .chamada { -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); width: 260px }
+		.tarja-branca .chamada { position: absolute; left: -75px; top: 250px }
+		.tarja-branca .chamada p { font-weight: 600; margin: 0; }
+		.tarja-branca .chamada p:first-child { font-size: 14px; color: #b1b1b1 }
+		.tarja-branca .chamada a.owl-change-link p { font-size: 30px; color: #242367 }
+
+		.owl-theme .owl-nav { position: absolute; margin-top: -75px; left: 50%; -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%) }
+		
+		.btn-owl-next:active,
+		.btn-owl-next:focus,
+		.btn-owl-next:active:focus,
+		.btn-owl-prev:active,
+		.btn-owl-prev:focus,
+		.btn-owl-prev:active:focus { outline: none; box-shadow: none }
+		.btn-owl-next { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg) }
+		.btn-owl-prev,
+		.btn-owl-next { border-radius: 0; border: none; background-color: transparent; padding: 5px 5px }
+		.btn-owl-prev svg,
+		.btn-owl-next svg { margin-bottom: -5px }
+		.btn-owl-prev:hover svg g path,
+		.btn-owl-prev:hover svg g polygon,
+		.btn-owl-next:hover svg g path,
+		.btn-owl-next:hover svg g polygon { fill: #242367 }
+
+		.buttons { position: absolute; bottom: 44px; z-index: 3 }
+	}
+</style>
+<div class="row-slider hidden-xs">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-slider hidden-xs">
+		<div class="tarja-branca position-center" style="height: 634px; width: 113px; background-color: #f5f5f5; z-index: 2">
+			<div class="chamada">
+				<p>estrutura física</p>
+				<a class="owl-change-link" style="color: #242367"><p class="owl-change-text">Matriz Curitiba</p></a>
+			</div>
+		</div>
+		<div class="owl-carousel owl-matrizes owl-theme">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg">
+				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">
+				<div class="item" data-text="Filial São Paulo" data-link="#filialSaoPaulo">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg">
+				<div class="item" data-text="Filial Maringá" data-link="#filialMaringa">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg">
+				<div class="item" data-text="Filial Cascavel" data-link="#filialCascavel">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg">
+				<div class="item" data-text="Matriz Curitiba" data-link="#matrizCuritiba">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+		</div>
+		<div class="buttons position-center">
+			<button type="button" class="btn btn-carousel btn-owl-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+
+			<button type="button" class="btn btn-carousel btn-owl-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".owl-change-link").attr("href", "<?= RAIZSITE ?>/contato/#matrizCuritiba");
+
+		$('.owl-matrizes').on('changed.owl.carousel', function(e) {
+			var owlText = $(".owl-matrizes .owl-item.active .item").attr("data-text");
+			var owlLink = $(".owl-matrizes .owl-item.active .item").attr("data-link");
+			$(".owl-change-text").html(owlText);
+			$(".owl-change-link").attr("href", "<?= RAIZSITE ?>/contato/"+owlLink);
+		}).owlCarousel({
+			items:1,
+		    margin:10,
+		    autoplay:true,
+    		autoplayTimeout:10000,
+    		loop:true,
+    		dots:false,
+    		nav:false
+		});
+
+		$(".btn-owl-prev").click(function(event) {
+			$('.owl-matrizes').trigger('prev.owl.carousel');
+		});
+		$(".btn-owl-next").click(function(event) {
+			$('.owl-matrizes').trigger('next.owl.carousel');
+		});
+	});
+</script>

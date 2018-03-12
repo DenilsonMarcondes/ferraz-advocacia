@@ -30,31 +30,12 @@
 	.session-atuacao-conteudo { background-color: #f5f5f5 }
 	.session-atuacao-conteudo .line { width: 94%; top: 9px }
 
-	.session-premios { background-color: #f5f5f5 }
-	.session-premios p.session-content { color: #4a4a4a }
-	.session-premios a.session-link:focus,
-	.session-premios a.session-link:hover { border-bottom: 1px solid #242367; }
-
 	.session-escritorio { background-color: #242367 }
 	.session-escritorio h3.session-title,
 	.session-escritorio p.session-content,
 	.session-escritorio a.session-link { color: #ffffff }
 	.session-escritorio a.session-link:focus,
-	.session-escritorio a.session-link:hover { border-bottom: 1px solid #ffffff; }
-
-	.session-atuacoes { background-color: #242367 }
-	.session-atuacoes .col-titulos h4 { font-family: 'Roboto', sans-serif; color: #f5f5f5; line-height: 1.56; font-size: 16px }
-	.session-atuacoes .col-titulos h4:first-child { padding: 0 !important }
-	.session-atuacoes .col-titulos h4 { margin: 0; padding-top: 30px }
-	.session-atuacoes .col-titulos h4 a { color: #a29cdf }
-	.session-atuacoes .col-titulos h4 a.active,
-	.session-atuacoes .col-titulos h4 a:focus,
-	.session-atuacoes .col-titulos h4 a:hover { color: #f5f5f5 }
-
-	.session-atuacoes .col-descritivos h4 { font-family: 'Roboto', sans-serif; color: #ffffff; line-height: 1.25; font-size: 20px }
-	.session-atuacoes .col-descritivos h4:first-child { padding-top: 0 }
-	.session-atuacoes .col-descritivos h4 { margin: 0; padding-top: 70px; padding-bottom: 30px }
-	.session-atuacoes .col-descritivos p { width: 456px; font-size: 14px; line-height: 1.79; color: #f5f5f5; margin: 0; }
+	.session-escritorio a.session-link:hover { border-bottom: 1px solid #ffffff }
 
 	@media screen and (min-width: 768px) {
 		.navbar-default { background-color: #ffffff; border: none }
@@ -80,15 +61,9 @@
 		.session-socios .col-conteudo { height: 519px; position: relative; }
 		.session-socios .col-conteudo .position-center-vertical { width: 340px }
 
-		.session-premios .col-conteudo { height: 320px }
-		.session-premios h3.session-title { width: 212px }
-		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px; width: 382px }
-
 		.session-escritorio .col-conteudo { height: 311px }
 		.session-escritorio h3.session-title { width: 323px }
 		.session-escritorio p.session-content { margin-top: 21px; margin-bottom: 15px; width: 302px }
-
-		.session-atuacoes { padding-top: 120px; padding-bottom: 120px }
 	}
 	@media screen and (max-width: 768px) {
 		.session-atuacao-conteudo { padding-top: 63px; padding-bottom: 63px }
@@ -97,9 +72,6 @@
 
 		.session-socios p.session-content { margin-top: 20px }
 		.session-socios .col-conteudo { height: 441px; position: relative; }
-
-		.session-premios .col-conteudo { height: 233px }
-		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
 
 		.session-escritorio .col-conteudo { height: 258px }
 		.session-escritorio p.session-content { margin-top: 21px; margin-bottom: 15px }
@@ -144,13 +116,41 @@
 		ATUAÇÕES STYLES
 		===============
 	*/
+	.session-atuacoes { background-color: #242367 }
+	.session-atuacoes .col-titulos h4 { font-family: 'Roboto', sans-serif; color: #f5f5f5; line-height: 1.56; font-size: 16px }
+	.session-atuacoes .col-titulos h4:first-child { padding: 0 !important }
+	.session-atuacoes .col-titulos h4 { margin: 0; padding-top: 30px }
+	.session-atuacoes .col-titulos h4 a { color: #a29cdf }
+	.session-atuacoes .col-titulos h4 a.active,
+	.session-atuacoes .col-titulos h4 a:focus,
+	.session-atuacoes .col-titulos h4 a:hover { color: #f5f5f5 }
+
+	.session-atuacoes .col-descritivos h4 { font-family: 'Roboto', sans-serif; color: #ffffff; line-height: 1.25; font-size: 20px }
+	.session-atuacoes .col-descritivos h4:first-child { padding-top: 0 }
+	.session-atuacoes .col-descritivos h4 { margin: 0; padding-top: 70px; padding-bottom: 30px }
+	.session-atuacoes .col-descritivos p { font-size: 14px; line-height: 1.79; color: #f5f5f5; margin: 0; }
+
 	@media screen and (min-width: 768px) {
+		.session-atuacoes { padding-top: 120px; padding-bottom: 120px }
+
 		.row-atuacoes { position: relative }
 		.row-atuacoes.active .col-titulos { position: fixed; top: 120px }
 		.row-atuacoes.active .col-descritivos { float: right }
 
 		.row-atuacoes.stay .col-titulos { position: absolute; bottom: -95px }
 		.row-atuacoes.stay .col-descritivos { float: right }
+	}
+
+	@media screen and (min-width: 1200px) {
+		.session-atuacoes .col-descritivos p { width: 456px }
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.session-atuacoes .col-descritivos p { width: auto }
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.session-atuacoes .col-descritivos p { width: 456px }
 	}
 </style>
 <div class="session-atuacoes">
@@ -278,6 +278,37 @@
 	});
 </script>
 
+<style type="text/css">
+	.session-premios { background-color: #f5f5f5 }
+	.session-premios p.session-content { color: #4a4a4a }
+	.session-premios a.session-link:focus,
+	.session-premios a.session-link:hover { border-bottom: 1px solid #242367 }
+
+	@media screen and (min-width: 768px) {
+		.session-premios .col-conteudo { height: 320px }
+		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
+	}
+
+	@media screen and (min-width: 1200px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 382px }
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 302px }
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.session-premios h3.session-title { width: 212px }
+		.session-premios p.session-content { width: 382px }
+	}
+
+	@media screen and (max-width: 768px) {
+		.session-premios .col-conteudo { height: 233px }
+		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
+	}
+</style>
 <div class="session-premios">
 	<div class="container">
 		<div class="row">
