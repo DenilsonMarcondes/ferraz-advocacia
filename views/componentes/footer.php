@@ -229,6 +229,15 @@
 </body>
 </html>
 
+<?php
+	ScriptLoader::LoadPLUGINSJS('OwlCarousel2-2.2.1/dist/owl.carousel.min.js');
+		ScriptLoader::LoadPLUGINSCSS('OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css');
+		ScriptLoader::LoadPLUGINSCSS('OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css');
+		
+	ScriptLoader::LoadPLUGINSCSS('fancybox-master/dist/jquery.fancybox.min.css');
+	ScriptLoader::LoadPLUGINSJS('fancybox-master/dist/jquery.fancybox.min.js');
+?>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('.owl-clientes').owlCarousel({

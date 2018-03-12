@@ -18,12 +18,12 @@
 <div class="container hidden-xs">
 	<div class="row row-list">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-list">
-			<ul class="nav nav-tabs">
+			<ul class="nav nav-tabs" id="myTabs">
 				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="marcacao-matriz-5.jpg">Matriz Curitiba</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="marcacao-matriz-1.jpg" role="tab">Filial Maringá</a></li>
 				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" data-image="marcacao-matriz-2.jpg" role="tab">Filial Blumenau</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" data-image="marcacao-matriz-3.jpg" role="tab">Filial Cascavel</a></li>
 				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" data-image="marcacao-matriz-4.jpg" role="tab">Filial São Paulo</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="marcacao-matriz-1.jpg" role="tab">Filial Maringá</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" data-image="marcacao-matriz-3.jpg" role="tab">Filial Cascavel</a></li>
 			</ul>
 		</div>
 	</div>
@@ -52,35 +52,6 @@
 
 					<div class="phones">
 						<p>Tel.: 41 3595 9200</p>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-form">
-					<form action="" type="post" class="form-horizontal">
-						<input type="text"  class="form-control form" placeholder="Nome">
-						<input type="text" class="form-control form" placeholder="E-mail">
-						<input type="text" class="form-control form" placeholder="Telefone">
-						<textarea class="form-control form" rows="10" placeholder="Mensagem"></textarea>
-
-						<button type="submit" class="btn btn-formulario size15 botao">ENVIAR</button>
-					</form>
-				</div>
-			</div>
-
-			<div id="filialMaringa" class="tab-pane fade">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-content">
-					<h3 class="azul link">FILIAL MARINGÁ</h3>
-
-					<div class="call">
-						<p>Entre em contato por telefone ou pelo formulário ao lado:</p>
-					</div>
-
-					<div class="address">
-						<p>Rua Santos Dumont, 2314, cj. 601, Centro, Maringá-PR</p>
-					</div>
-
-					<div class="phones">
-						<p>Tel.: 44 3302 5300</p>
 					</div>
 				</div>
 
@@ -126,35 +97,6 @@
 				</div>
 			</div>
 
-			<div id="filialCascavel" class="tab-pane fade">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-content">
-					<h3 class="azul link">FILIAL CASCAVEL</h3>
-
-					<div class="call">
-						<p>Entre em contato por telefone ou pelo formulário ao lado:</p>
-					</div>
-
-					<div class="address">
-						<p>Avenida Brasil, 5964, cj. 114 Centro, Cascavel-PR</p>
-					</div>
-
-					<div class="phones">
-						<p>Tel.: 45 3304 9200 </p>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-form">
-					<form action="" type="post" class="form-horizontal">
-						<input type="text"  class="form-control form" placeholder="Nome">
-						<input type="text" class="form-control form" placeholder="E-mail">
-						<input type="text" class="form-control form" placeholder="Telefone">
-						<textarea class="form-control form" rows="10" placeholder="Mensagem"></textarea>
-
-						<button type="submit" class="btn btn-formulario size15 botao">ENVIAR</button>
-					</form>
-				</div>
-			</div>
-
 			<div id="filialSaoPaulo" class="tab-pane fade">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-content">
 					<h3 class="azul link">FILIAL SÃO PAULO</h3>
@@ -183,9 +125,73 @@
 					</form>
 				</div>
 			</div>
+
+			<div id="filialMaringa" class="tab-pane fade">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-content">
+					<h3 class="azul link">FILIAL MARINGÁ</h3>
+
+					<div class="call">
+						<p>Entre em contato por telefone ou pelo formulário ao lado:</p>
+					</div>
+
+					<div class="address">
+						<p>Rua Santos Dumont, 2314, cj. 601, Centro, Maringá-PR</p>
+					</div>
+
+					<div class="phones">
+						<p>Tel.: 44 3302 5300</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-form">
+					<form action="" type="post" class="form-horizontal">
+						<input type="text"  class="form-control form" placeholder="Nome">
+						<input type="text" class="form-control form" placeholder="E-mail">
+						<input type="text" class="form-control form" placeholder="Telefone">
+						<textarea class="form-control form" rows="10" placeholder="Mensagem"></textarea>
+
+						<button type="submit" class="btn btn-formulario size15 botao">ENVIAR</button>
+					</form>
+				</div>
+			</div>
+
+			<div id="filialCascavel" class="tab-pane fade">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-content">
+					<h3 class="azul link">FILIAL CASCAVEL</h3>
+
+					<div class="call">
+						<p>Entre em contato por telefone ou pelo formulário ao lado:</p>
+					</div>
+
+					<div class="address">
+						<p>Avenida Brasil, 5964, cj. 114 Centro, Cascavel-PR</p>
+					</div>
+
+					<div class="phones">
+						<p>Tel.: 45 3304 9200 </p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-form">
+					<form action="" type="post" class="form-horizontal">
+						<input type="text"  class="form-control form" placeholder="Nome">
+						<input type="text" class="form-control form" placeholder="E-mail">
+						<input type="text" class="form-control form" placeholder="Telefone">
+						<textarea class="form-control form" rows="10" placeholder="Mensagem"></textarea>
+
+						<button type="submit" class="btn btn-formulario size15 botao">ENVIAR</button>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	var url = document.location.toString();
+	if (url.match('#')) {
+		$('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+	}
+</script>
 
 <iframe class="hidden-xs" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10193.192062203263!2d-49.266969942545266!3d-25.41024566243187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce41f8586c617%3A0xef8dd8b36a8055e!2sRua+Alberto+Folloni%2C+541+-+Juvev%C3%AA%2C+Curitiba+-+PR!5e0!3m2!1spt-BR!2sbr!4v1511894085947" width="100%" height="430" frameborder="0" style="border: 0; margin: 0; margin-bottom: -5px" allowfullscreen></iframe>
 

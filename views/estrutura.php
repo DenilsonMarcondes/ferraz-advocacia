@@ -123,15 +123,25 @@
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				</a>
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				</a>
 			</div>
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				</a>
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				</a>
 			</div>
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
+				</a>
 				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: #242367; height: 519px"></div>
 			</div>
 		</div>

@@ -110,16 +110,28 @@
 		</div>
 		<div class="owl-carousel owl-premios owl-theme">
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-2.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-1.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-2.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-2.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
 			</div>
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-3.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-4.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-3.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-3.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-4.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-4.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
 			</div>
 			<div class="item">
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-5.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
-				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-6.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-5.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-5.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-6.jpg">
+					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-6.jpg'); height: 634px; background-size: cover; background-position: center center"></div>
+				</a>
 			</div>
 		</div>
 		<div class="buttons position-center">
