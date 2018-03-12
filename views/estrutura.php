@@ -173,6 +173,27 @@
 	});
 </script>
 
+<style type="text/css">
+	.row-socios-mobile { padding-top: 51px; padding-bottom: 51px }
+
+	.row-socios-mobile h3,
+	.row-socios-mobile p,
+	.row-socios-mobile a.session-link { color: #242367 }
+
+	.row-socios-mobile p { margin-top: 20px; margin-bottom: 18px }
+</style>
+<div class="hidden-lg hidden-md hidden-sm" style="background-color: #f5f5f5">
+	<div class="container">
+		<div class="row row-socios-mobile">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<h3 class="session-title">O escritório tem como sócios-titulares</h3>
+				<p class="session-content">advogados especializados em<br>diversas áreas.</p>
+				<a href="<?= RAIZSITE ?>/quem-somos/#equipe" class="session-link">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php include COMPONENTES."estrutura-fisica.php" ?>
 
 <script type="text/javascript">

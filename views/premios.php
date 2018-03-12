@@ -141,6 +141,47 @@
 		</div>
 	</div>
 </div>
+<div class="row hidden-lg hidden-md hidden-sm">
+	<div class="hidden-lg hidden-md hidden-sm col-xs-12 col-slider">
+		<div class="owl-carousel owl-premios owl-theme">
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-1.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-1.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-2.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-2.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-3.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-3.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-4.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-4.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-5.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-5.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-6.jpg">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="background: url('<?= RAIZSITE ?>/img/marcacao-premios-6.jpg'); height: 389px; background-size: cover; background-position: center center"></div>
+				</a>
+			</div>
+		</div>
+		<div class="buttons position-center hidden-xs">
+			<button type="button" class="btn btn-carousel btn-owl-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+
+			<button type="button" class="btn btn-carousel btn-owl-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
+		</div>
+	</div>
+</div>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('.owl-premios').owlCarousel({

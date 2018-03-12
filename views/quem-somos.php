@@ -31,8 +31,7 @@
 	}
 </style>
 
-<div class="margin-header">&nbsp;</div>
-<div class="session-chamada">
+<div class="session-chamada hidden-xs">
 	<div class="container">
 		<div class="row row-chamada">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -47,6 +46,7 @@
 	.session-historico .col-tab .tab-description { color: #f5f5f5 }
 
 	@media screen and (min-width: 768px) {
+		.session-historico .col-historico { padding-right: 0; height: 616px }
 		.session-historico h3.session-title { color: #242367; margin-top: 21px; margin-bottom: 21px }
 		.session-historico p.session-content { color: #4a4a4a }
 
@@ -57,6 +57,12 @@
 		.session-historico .col-missao .nav-tabs { float: left; margin-top: -40px; margin-left: 30px; border: none; }
 		.session-historico .col-missao .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
 		.session-historico .col-missao .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
+	}
+
+	@media screen and (max-width: 768px) {
+		.session-historico { padding-top: 51px; padding-bottom: 51px }
+		.session-historico h3.session-title { width: 190px; margin-top: 14px; color: #242367 }
+		.session-historico p.session-content { margin-top: 22px }
 	}
 
 	@media screen and (min-width: 1200px) {
@@ -74,8 +80,13 @@
 		.session-historico p.session-content { width: 382px }
 	}
 </style>
-<div class="container">
+<div class="container hidden-xs">
 	<div style="height: 406px; background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-size: cover; background-position: center -50px"></div>
+</div>
+<div class="hidden-lg hidden-md hidden-sm" style="height: 233px; background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-size: cover; background-position: center center; margin-top: 70px; position: relative">
+	<div class="container">
+		<p class="position-center-vertical" style="font-family: 'Roboto', sans-serif; font-size: 20px; color: #242367; line-height: 1.25; font-weight: 500; width: 191px">Ferraz | Cicarelli & Passold Advogados Associados</p>
+	</div>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="position: relative; height: 377px; background-color: #242367; z-index: 0; margin-bottom: -377px"></div>
 <div class="session-historico">
@@ -83,7 +94,7 @@
 		<div class="line hidden-xs"></div>
 
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-historico" style="padding-right: 0px; height: 616px">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-historico">
 				<div style="height: 105px; background-color: #ffffff; margin-top: -105px" class="hidden-xs"></div>
 
 				<p class="bread-crumb-title">o histórico</p>
@@ -91,7 +102,7 @@
 				<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
 				<p class="session-content">Apresentando um trabalho sério, eficiente e que supera as expectativas dos clientes, o escritório teve um crescimento rápido sem nunca esquecer dos valores e da excelência em todas as áreas de atuação. O FCP Advogados Associados é referência nacional em serviços jurídicos e de recuperação de ativos e está pronto para atender sua empresa.</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-missao" style="padding-left: 0px">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs col-missao" style="padding-left: 0px">
 				<ul class="nav nav-tabs">
 					<li role="presentation" class="active"><a data-toggle="tab" href="#missao">Missão</a></li>
 					<li role="presentation"><a data-toggle="tab" href="#visao" role="tab">Visão</a></li>
@@ -127,6 +138,48 @@
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="background: url('<?= RAIZSITE ?>/img/marcacao-5.jpg'); height: 250px; background-position: center center; margin-top: -250px"></div>
 
+<style type="text/css">
+	@media screen and (max-width: 767px) {
+		.session-missao-mobile { background-color: #242367; padding-top: 60px; padding-bottom: 60px }
+
+		.session-missao-mobile .tab-title { font-family: 'Roboto', sans-serif; font-weight: 500; line-height: 1.8; font-size: 20px; text-transform: uppercase; color: #ffffff; margin: 0; }
+		.session-missao-mobile .tab-description { margin: 35px 0px 0px 0px; color: #ffffff; font-size: 12px; line-height: 1.5 }
+	}
+</style>
+<div class="session-missao-mobile hidden-lg hidden-md hidden-sm">
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a data-toggle="tab" href="#missaoMobile">Missão</a></li>
+			<li role="presentation"><a data-toggle="tab" href="#visaoMobile" role="tab">Visão</a></li>
+			<li role="presentation"><a data-toggle="tab" href="#valoresMobile" role="tab">Valores</a></li>
+		</ul>
+
+		<div class="col-tab">
+			<div class="tab-content">
+				<div id="missaoMobile" class="tab-pane fade in active">
+					<div style="padding-top: 38px">
+						<p class="tab-title">Missão</p>
+						<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
+					</div>
+				</div>
+
+				<div id="visaoMobile" class="tab-pane fade">
+					<div style="padding-top: 38px">
+						<p class="tab-title">Visão</p>
+						<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
+					</div>
+				</div>
+
+				<div id="valoresMobile" class="tab-pane fade">
+					<div style="padding-top: 38px">
+						<p class="tab-title">Valores</p>
+						<p class="tab-description">A missão do escritório é buscar resultado ao cliente, superando expectativas mediante gestão de informação, serviços jurídicos e de recuperação de crédito com qualidade, bem como proporcionar oportunidades aos colaboradores e crescimento da empresa.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <style type="text/css">
 	.session-equipe { background-color: #f5f5f5 }
@@ -167,7 +220,7 @@
 		.session-equipe .membro .conteudo p { height: 150px }
 	}
 </style>
-<div class="session-equipe" id="equipe">
+<div class="session-equipe hidden-xs" id="equipe">
 	<div class="container hidden-xs">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="margin-bottom: 27px">
@@ -254,7 +307,7 @@
 		.session-premios p.session-content { width: 382px }
 	}
 </style>
-<div class="session-escritorio" style="background-color: #242367">
+<div class="session-escritorio hidden-xs" style="background-color: #242367">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">
@@ -268,7 +321,7 @@
 		</div>
 	</div>
 </div>
-<div class="session-premios" style="background-color: #f5f5f5">
+<div class="session-premios hidden-xs" style="background-color: #f5f5f5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">

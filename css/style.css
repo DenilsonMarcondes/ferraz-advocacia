@@ -80,7 +80,7 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 	.parallax-to-action-filter { height: 344px }
 
 	.parallax-topo,
-	.parallax-topo .parallax-filter { height: 120px }
+	.parallax-topo .parallax-filter { height: 137px; margin-top: 74px }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {

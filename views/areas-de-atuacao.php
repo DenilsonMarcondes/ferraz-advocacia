@@ -38,6 +38,8 @@
 	.session-escritorio a.session-link:hover { border-bottom: 1px solid #ffffff }
 
 	@media screen and (min-width: 768px) {
+		.parallax-topo { background-attachment: fixed }
+
 		.navbar-default { background-color: #ffffff; border: none }
 		.navbar-default.transparent { background-color: transparent; border: none }
 
@@ -85,7 +87,7 @@
 	}
 </style>
 
-<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
+<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center center; background-size: cover">
 	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.34"></div>
 </div>
 
@@ -196,66 +198,66 @@
 		</div>
 
 		<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(1)">
 				<h4>Recuperação de créditos&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo1">
 				<p>Atuação rápida e eficaz na recuperação de créditos por meio da retomada de bens dados em garantia, investigação patrimonial e busca de bens passíveis de penhora.</p>
 			</div>
 		</div>
 		<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(2)">
 				<h4>Negociação&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo2">
 				<p>O escritório possui estrutura especializada na negociação de créditos com equipes treinadas e diversas ferramentas tecnológicas e de informação (Sistemas de telefonia completo, de controle de gestão, de localização de pessoas, de cruzamento de informações públicas, dentre outras).</p>
 			</div>
 		</div>
 		<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(3)">
 				<h4>Solução de Litígios&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo3">
 				<p>Na defesa de ações cíveis, a diretoria contenciosa do escritório busca a rápida solução dos litígios, inclusive na busca ativa por acordos, a fim de garantir a redução dos riscos processuais (condenações) e dos custos inerentes aos processos.</p>
 			</div>
 		</div>
 			<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(4)">
 				<h4>Cobrança Judicial&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo4">
 				<p>Atendendo às exigências do mercado, o escritório está preparado para atuar na fase pré-jurídica ou administrativa, evitando os custos inerentes aos processos judiciais.</p>
 			</div>
 		</div>
 			<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(5)">
 				<h4>Recuperação Judicial, Extrajudicial e Falências&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo5">
 				<p>O escritório conta com equipe especializada no acompanhamento de processos de recuperação judicial, extrajudicial e falências, além de parceria com profissionais de outras áreas do conhecimento.</p>
 			</div>
 		</div>
 			<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(6)">
 				<h4>Equipes Especializadas&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo6">
 				<p>As equipes internas são especializadas nos clientes do escritório, atuando com sinergia e trazendo melhores resultados.</p>
 			</div>
 		</div>
 			<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(7)">
 				<h4>Soluções Completas&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo7">
 				<p>Com perfil moderno e conhecimento nas mais diversas espécies de operações bancárias, contratos e processos o escritório entrega Soluções completas, com as melhores práticas e inovação.</p>
 			</div>
 		</div>
 			<div class="row hidden-lg hidden-md hidden-sm row-atuacao">
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-titulo" onclick="act(8)">
 				<h4>Alta Complexidade&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></h4>
 			</div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-conteudo" id="conteudo8">
 				<p>Além da atuação no contencioso de massa, há profissionais com alta capacidade técnica, preparados para processos e causas jurídicas de alta complexidade e relevância.</p>
 			</div>
 		</div>
@@ -276,6 +278,29 @@
 			$(".row-atuacoes").removeClass("stay");
 		}
 	});
+
+	//$(".atuacao-conteudo").hide();
+	/*
+	$(".atuacao-titulo").click(function(event) {
+		if($(".atuacao-conteudo").is(":visible")) {
+			$(".atuacao-conteudo svg").removeClass('rotate');
+			$(".atuacao-conteudo").hide();
+		} else {
+			$(".atuacao-conteudo").show();
+			$(".atuacao-conteudo svg").addClass('rotate');
+		}
+	});
+	*/
+	function act(value) {
+		/*
+		$(".atuacao-conteudo#conteudo"+value+"").addClass('ionc');
+		*/
+		if($(".atuacao-conteudo#conteudo"+value+"").is("visible")) {
+			$(this).hide();
+		} else {
+			$(this).show();
+		}
+	}
 </script>
 
 <style type="text/css">
@@ -466,17 +491,6 @@
 				}, 1000);
 				return false;
 			}
-		}
-	});
-
-	$(".atuacao-conteudo").hide();
-	$(".atuacao-titulo").click(function(event) {
-		if($(".atuacao-conteudo").is(":visible")) {
-			$(".atuacao-conteudo svg").removeClass('rotate');
-			$(".atuacao-conteudo").hide();
-		} else {
-			$(".atuacao-conteudo").show();
-			$(".atuacao-conteudo svg").addClass('rotate');
 		}
 	});
 
