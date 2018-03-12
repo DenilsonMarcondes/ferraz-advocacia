@@ -64,7 +64,7 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 	.container { width: 960px !important }
 }
 @media screen and (min-width: 1441px) {
-	body { margin-left: auto !important; margin-right: auto !important }
+	body { margin-left: auto !important; margin-right: auto !important; width: 1440px }
 }
 
 @media screen and (max-width: 767px) {
@@ -81,6 +81,10 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 
 	.parallax-topo,
 	.parallax-topo .parallax-filter { height: 120px }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	body { zoom: 0.9; }
 }
 
 /*
