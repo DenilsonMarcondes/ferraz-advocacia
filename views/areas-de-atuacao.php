@@ -1,3 +1,26 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		var hash = location.hash.replace('#','');
+		if(hash == 'recuperacaocreditos'){
+			$('html, body').animate({ scrollTop: $('#recuperacaocreditos').offset().top-120}, 1000);
+		} else if(hash == 'negociacao'){
+			$('html, body').animate({ scrollTop: $('#negociacao').offset().top-50}, 1000);
+		} else if(hash == 'cobranca'){
+			$('html, body').animate({ scrollTop: $('#cobranca').offset().top-50}, 1000);
+		} else if(hash == 'solicitacao'){
+			$('html, body').animate({ scrollTop: $('#solicitacao').offset().top-50}, 1000);
+		} else if(hash == 'equipes'){
+			$('html, body').animate({ scrollTop: $('#equipes').offset().top-50}, 1000);
+		} else if(hash == 'solucoes'){
+			$('html, body').animate({ scrollTop: $('#solucoes').offset().top-50}, 1000);
+		} else if(hash == 'recuperacaojudicial'){
+			$('html, body').animate({ scrollTop: $('#recuperacaojudicial').offset().top-50}, 1000);
+		} else if(hash == 'complexidade'){
+			$('html, body').animate({ scrollTop: $('#complexidade').offset().top-50}, 1000);
+		}
+	});
+</script>
+
 <style type="text/css">
 	/*
 		==============
@@ -296,7 +319,7 @@
 		.tarja-branca .chamada { position: absolute; left: -75px; top: 250px }
 		.tarja-branca .chamada p { font-weight: 600; margin: 0; }
 		.tarja-branca .chamada p:first-child { font-size: 14px; color: #b1b1b1 }
-		.tarja-branca .chamada p:nth-child(2) { font-size: 30px; color: #242367 }
+		.tarja-branca .chamada a.owl-change-link p { font-size: 30px; color: #242367 }
 
 		.owl-theme .owl-nav { position: absolute; margin-top: -75px; left: 50%; -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%) }
 		
@@ -324,25 +347,35 @@
 		<div class="tarja-branca position-center" style="height: 631px; width: 113px; background-color: #f5f5f5; z-index: 2">
 			<div class="chamada">
 				<p>estrutura física</p>
-				<p class="owl-change-text">Matriz Curitiba</p>
+				<a class="owl-change-link" style="color: #242367"><p class="owl-change-text">Matriz Curitiba</p></a>
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<div class="item" data-text="Filial Maringá">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
-			</div>
-			<div class="item" data-text="Filial Blumenau">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
-			</div>
-			<div class="item" data-text="Filial Cascavel">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
-			</div>
-			<div class="item" data-text="Filial São Paulo">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
-			</div>
-			<div class="item" data-text="Filial Curitiba">
-				<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
-			</div>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg">
+				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">
+				<div class="item" data-text="Filial São Paulo" data-link="#filialSaoPaulo">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg">
+				<div class="item" data-text="Filial Maringá" data-link="#filialMaringa">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg">
+				<div class="item" data-text="Filial Cascavel" data-link="#filialCascavel">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg">
+				<div class="item" data-text="Matriz Curitiba" data-link="#matrizCuritiba">
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+				</div>
+			</a>
 		</div>
 		<div class="buttons position-center">
 			<button type="button" class="btn btn-carousel btn-owl-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="21px" height="21px"><g><path d="M26,0C11.663,0,0,11.663,0,26s11.663,26,26,26s26-11.663,26-26S40.337,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#b1b1b1"/><polygon points="32,36.783 32,15.438 14.043,25.806  " fill="#b1b1b1"/></g></svg></button>
@@ -353,9 +386,13 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
+		$(".owl-change-link").attr("href", "<?= RAIZSITE ?>/contato/#matrizCuritiba");
+
 		$('.owl-matrizes').on('changed.owl.carousel', function(e) {
 			var owlText = $(".owl-matrizes .owl-item.active .item").attr("data-text");
+			var owlLink = $(".owl-matrizes .owl-item.active .item").attr("data-link");
 			$(".owl-change-text").html(owlText);
+			$(".owl-change-link").attr("href", "<?= RAIZSITE ?>/contato/"+owlLink);
 		}).owlCarousel({
 			items:1,
 		    margin:10,

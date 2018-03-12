@@ -2,7 +2,7 @@
 	$(document).ready(function(){
 		var hash = location.hash.replace('#','');
 		if(hash == 'equipe'){
-			$('html, body').animate({ scrollTop: $('#equipe').offset().top-0}, 1000);
+			$('html, body').animate({ scrollTop: $('#equipe').offset().top-50}, 1000);
 		}
 	});
 </script>

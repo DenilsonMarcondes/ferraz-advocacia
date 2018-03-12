@@ -1,3 +1,20 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		var hash = location.hash.replace('#','');
+		if(hash == 'filialBlumenau'){
+			$('html, body').animate({ scrollTop: $('#filialBlumenau').offset().top-200}, 1000);
+		} else if(hash == 'filialSaoPaulo'){
+			$('html, body').animate({ scrollTop: $('#filialSaoPaulo').offset().top-200}, 1000);
+		} else if(hash == 'filialMaringa'){
+			$('html, body').animate({ scrollTop: $('#filialMaringa').offset().top-200}, 1000);
+		} else if(hash == 'filialCascavel'){
+			$('html, body').animate({ scrollTop: $('#filialCascavel').offset().top-200}, 1000);
+		} else if(hash == 'matrizCuritiba'){
+			$('html, body').animate({ scrollTop: $('#matrizCuritiba').offset().top-200}, 1000);
+		}
+	});
+</script>
+
 <style type="text/css">
 	@media screen and (min-width: 769px) {
 		.navbar-default { background-color: #ffffff; border: none }
