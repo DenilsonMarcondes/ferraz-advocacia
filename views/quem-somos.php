@@ -461,3 +461,159 @@
 		});
 	});
 </script>
+
+<style type="text/css">
+	.bloco-chamada-socios { padding-top: 46px; padding-bottom: 46px }
+	.bloco-chamada-socios .session-title { padding-top: 13px; padding-bottom: 13px; width: 212px; color: #242367 }
+	.bloco-chamada-socios .session-content { width: 268px; color: #4a4a4a }
+
+	.menu-mobile-socios-li { padding-top: 21px; padding-bottom: 21px; padding-left: 0 !important; padding-right: 0 !important; border-top: 1px solid #242367 }
+	.menu-mobile-socios-li.principal { border-top: none; padding-top: 0 }
+	.menu-mobile-socios-li .socios-li-principal p:first-child { font-size: 10px; font-weight: 700; color: #b1b1b1; margin: 0 }
+	.menu-mobile-socios-li .socios-li-principal p.session-title { color: #242367; line-height: 1.8; font-size: 16px }
+	.menu-mobile-socios-li .socios-li-principal svg { -webkit-transition: 0.5s; transition: 0.5s }
+	.socios-li { padding-bottom: 25px }
+	.socios-li-principal span { font-family: 'Roboto', sans-serif; font-size: 10px; font-style: italic; line-height: 2; color: #242367 }
+	.socios-li p.description { font-size: 12px; color: #4a4a4a; line-height: 1.83; margin: 0; font-weight: 400; margin-top: 20px; }
+
+	.bloco-chamada-quem-somos { padding-top: 46px; padding-bottom: 46px }
+	.bloco-chamada-quem-somos .session-title { padding-top: 13px; padding-bottom: 13px; color: #f5f5f5 }
+	.bloco-chamada-quem-somos .session-content { color: #f5f5f5 }
+
+	.bloco-chamada-premios { padding-top: 46px; padding-bottom: 46px }
+	.bloco-chamada-premios .session-title { padding-top: 13px; padding-bottom: 13px; color: #242367 }
+	.bloco-chamada-premios .session-content { color: #4a4a4a }
+</style>
+<div class="hidden-lg hidden-md hidden-sm row" style="margin: 0 !important">
+	<div class="col-xs-12" style="padding: 0 !important">
+		<div class="container bloco-chamada-socios">
+			<p class="bread-crumb-title">quem somos</p>
+			<h3 class="session-title">O escritório tem como sócios-titulares</h3>
+			<p class="session-content">Advogados especializados em diversas áreas, sendo eles:</p>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li principal">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">VALERIA CARAMURU CICARELLI</p>
+				<span>(in memoriam)</span>
+			</div>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li" onClick="act(1)">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">ALEXANDRE NELSON FERRAZ&nbsp;&nbsp;<svg class="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></p>
+			</div>
+		</div>
+
+		<div class="socios-conteudo" id="conteudo1">
+			<div class="container socios-li">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg'); height: 202px; background-position: top center; background-size: cover"></div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<p class="description">Inscrito na OAB/PR sob o n. 30.890, na OAB/SC sob o n. 36.530, na OAB/SP sob o n. 382.471 e na OAB/MT sob o n. 22.640/A, formou-se pela FURB - Fundação Universidade Regional de Blumenau.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li" onClick="act(2)">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">Márcio rubens passold&nbsp;&nbsp;<svg class="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></p>
+			</div>
+		</div>
+
+		<div class="socios-conteudo" id="conteudo2">
+			<div class="container socios-li">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg'); height: 202px; background-position: top center; background-size: cover"></div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<p class="description">Inscrito na OAB/SC sob o n. 12.826, na OAB/PR sob o n. 37.600 e na OAB/SP sob o n. 382.496, formou-se em Direito pela FURB - Fundação Universidade Regional de Blumenau.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li" onClick="act(3)">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">LEONARDO XAVIER ROUSSENQ&nbsp;&nbsp;<svg class="svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></p>
+			</div>
+		</div>
+
+		<div class="socios-conteudo" id="conteudo3">
+			<div class="container socios-li">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg'); height: 202px; background-position: top center; background-size: cover"></div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<p class="description">Inscrito na OAB/PR sob o n. 25.661, na OAB/SC sob o n. 45.745, na OAB/SP sob o n. 382.491 e na OAB/MT sob o n. 22.385/A, formou-se em Direito pela Pontifícia Universidade Católica do Paraná.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li" onClick="act(4)">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">Maria angela keiko taira&nbsp;&nbsp;<svg class="svg4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></p>
+			</div>
+		</div>
+
+		<div class="socios-conteudo" id="conteudo4">
+			<div class="container socios-li">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg'); height: 202px; background-position: top center; background-size: cover"></div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<p class="description">Inscrita na OAB/PR sob o n. 34.433, na OAB/SC sob o n. 45.743 e na OAB/SP sob o n. 194.240, formou-se em Direito pela Faculdade de Direito da Alta Paulista.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden-lg hidden-md hidden-sm col-xs-12 menu-mobile-socios-li" onClick="act(5)">
+			<div class="container socios-li-principal">
+				<p class="session-title display-filiais uppercase">Felipe sá ferreira&nbsp;&nbsp;<svg class="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></p>
+			</div>
+		</div>
+
+		<div class="socios-conteudo" id="conteudo5">
+			<div class="container socios-li">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<div class="imagem" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg'); height: 202px; background-position: top center; background-size: cover"></div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12" style="padding: 0">
+					<p class="description">Inscrito na OAB/SC sob o n. 17.611, na OAB/PR sob o n. 60.109 e na OAB/SP sob o n. 382.482, formou-se em Direito pela FURB - Fundação Universidade Regional de Blumenau.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(".socios-conteudo").css("display", "none");
+	$(".session-title .svg1").addClass('rotate');
+	$(".socios-conteudo#conteudo1").css("display", "block");
+	function act(value) {
+		if($(".socios-conteudo#conteudo"+value+"").is(":visible")) {
+			$(".session-title .svg"+value+"").removeClass('rotate');
+			$(".socios-conteudo#conteudo"+value+"").css("display", "none");
+		} else {
+			$(".socios-conteudo#conteudo"+value+"").css("display", "block");
+			$(".session-title .svg"+value+"").addClass('rotate');
+		}
+	}
+</script>
+
+<div class="session-atuacao-mobile hidden-lg hidden-md hidden-sm" style="background-color: #242367">
+	<div class="container bloco-chamada-quem-somos">
+		<p class="bread-crumb-title">quem somos</p>
+		<h3 class="session-title">Áreas de atuação</h3>
+		<p class="session-content">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+
+		<a href="<?= RAIZSITE ?>/areas-de-atuacao" style="color: #f5f5f5" class="session-link">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#f5f5f5" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+	</div>
+</div>
+<div class="session-premios-mobile hidden-lg hidden-md hidden-sm" style="background-color: #f5f5f5">
+	<div class="container bloco-chamada-premios">
+		<h3 class="session-title">Prêmios</h3>
+		<p class="session-content">Escritório e Sócios multi-premiados e reconhecidos por diversas instituições de grande credibilidade e renome no mercado.</p>
+
+		<a href="<?= RAIZSITE ?>/premios" style="color: #16197D" class="session-link">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#242367" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+	</div>
+</div>
