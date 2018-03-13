@@ -19,11 +19,12 @@
 		.navbar-default .navbar-nav>li>a:hover,
 		.navbar-default .navbar-nav>li>a.link-active { /*font-weight: 700;*/ border-bottom: 1px solid #242367; color: #242367 }
 
-		a.btn { border-radius: 0; width: 225px }
+		a.btn { -webkit-transition: 2s; transition: 2s }
+		a.btn { border-radius: 0; width: 0px }
 		a.btn.focus,
 		a.btn:focus,
 		a.btn:hover { color: #ffffff; border-bottom-color: #ffffff; box-shadow: none }
-		a.url { font-size: 14px; font-weight: 500; padding: 12px 0px; text-align: left; color: #9b9b9b; border-bottom: 1px solid #9b9b9b }
+		a.url { font-size: 14px; font-weight: 500; padding: 12px 0px; text-align: left; color: transparent; border-bottom: 1px solid #9b9b9b }
 
 		.row-carousel-hash { position: relative; margin-top: -100px; z-index: 2 }
 
@@ -37,6 +38,14 @@
 		.item .item-home,
 		.parallax-filter,
 		.owl-carousel-text { height: 644px }
+
+		.carousel-principal .slider-vertical-line { -webkit-transition: 2s; transition: 2s }
+		.carousel-principal .slider { height: 248px }
+		.carousel-principal #info { position: absolute; bottom: 0; opacity: 0 }
+		.carousel-principal .slider-vertical-line { height: 0px }
+		.carousel-principal .slider-vertical-line.active { height: 230px }
+
+		a.btn.url.active { color: #ffffff !important; border-bottom-color: #ffffff; box-shadow: none; transition: 0s; transition: 0s }
 	}
 
 	@media screen and (max-width: 767px) {
@@ -56,8 +65,8 @@
 </style>
 
 <div class="carousel-principal" style="position: relative">
-	<div class="position-center-vertical" style="right: 50px; z-index: 999">
-		<div class="slider-vertical-line hidden-xs" style="height: 230px; border: 0.5px solid #ffffff; width: 0.5px; margin-left: 11px"></div>
+	<div class="position-center-vertical slider" style="right: 50px; z-index: 999">
+		<div class="slider-vertical-line hidden-xs" style="border: 0.5px solid #ffffff; width: 0.5px; margin-left: 11px"></div>
 		<span class="hidden-xs" id="info" style="color: #ffffff; font-size: 14px"></span>
 	</div>
 
@@ -132,10 +141,28 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
+		$("a.url[data-name=o-escritorio]").addClass('active');
 		$('.owl-home').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 			if (!e.namespace) return
 			var carousel = e.relatedTarget
-			$('#info').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length)
+			$('#info').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+			$('.slider-vertical-line').css('height', '230px');
+			$('a.btn.url').css('width', '225px');
+		}).on('translated.owl.carousel', function(e) {
+			var hashTranslated = window.location.hash;
+			if(hashTranslated == "#o-escritorio") {
+				$("a.url[data-name=o-escritorio]").addClass('active');
+				$("a.url[data-name=o-que-fazemos]").removeClass('active');
+				$("a.url[data-name=estrutura-organizacional]").removeClass('active');
+			} else if(hashTranslated == "#o-que-fazemos") {
+				$("a.url[data-name=o-escritorio]").removeClass('active');
+				$("a.url[data-name=o-que-fazemos]").addClass('active');
+				$("a.url[data-name=estrutura-organizacional]").removeClass('active');
+			} else if(hashTranslated == "#estrutura-organizacional") {
+				$("a.url[data-name=o-escritorio]").removeClass('active');
+				$("a.url[data-name=o-que-fazemos]").removeClass('active');
+				$("a.url[data-name=estrutura-organizacional]").addClass('active');
+			}
 		}).owlCarousel({
 			items:1,
 		    margin:10,
@@ -143,8 +170,14 @@
     		autoplayTimeout:10000,
     		loop:true,
     		dots:false,
-    		URLhashListener:true
+    		URLhashListener:true,
+    		animateOut: 'fadeOut'
 		})
+
+		setTimeout(function(){
+			$('#info').css('opacity', '9');
+			$('a.btn.url').css('color', '#9b9b9b');
+		}, 2000);
 	});
 </script>
 
