@@ -33,23 +33,42 @@
 
 		a.btn-carousel { border-radius: 0; background-color: #242367; color: #ffffff; text-transform: uppercase; width: 113px; padding: 10px 20px; margin-top: 20px; -webkit-transition: 0.5s; transition: 0.5s }
 		a.btn-carousel:hover { background-color: transparent; border-color: #ffffff; -webkit-transition: 0.5s; transition: 0.5s }
+
+		.item .item-home,
+		.parallax-filter,
+		.owl-carousel-text { height: 644px }
+	}
+
+	@media screen and (max-width: 767px) {
+		.carousel-principal { margin-top: 70px }
+		
+		.owl-carousel-text p { font-family: 'Roboto', sans-serif; color: #ffffff; line-height: 0.76; font-size: 24px; text-transform: uppercase }
+		.owl-carousel-text p:first-child { font-weight: 200 }
+		.owl-carousel-text p:nth-child(2) { font-weight: 600 }
+
+		a.btn-carousel { border-radius: 0; background-color: #242367; color: #ffffff; text-transform: uppercase; width: 113px; padding: 10px 20px; margin-top: 20px; -webkit-transition: 0.5s; transition: 0.5s }
+		a.btn-carousel:hover { background-color: transparent; border-color: #ffffff; -webkit-transition: 0.5s; transition: 0.5s }
+
+		.item .item-home,
+		.parallax-filter,
+		.owl-carousel-text { height: 367px }
 	}
 </style>
 
-<div class="hidden-xs" style="position: relative">
+<div class="carousel-principal" style="position: relative">
 	<div class="position-center-vertical" style="right: 50px; z-index: 999">
 		<div class="slider-vertical-line hidden-xs" style="height: 230px; border: 0.5px solid #ffffff; width: 0.5px; margin-left: 11px"></div>
 		<span class="hidden-xs" id="info" style="color: #ffffff; font-size: 14px"></span>
 	</div>
 
 	<div class="owl-carousel owl-home owl-theme">
-	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-2.jpg'); background-position: center center; background-size: cover">
 
-	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
 	    	<div class="container">
 	    		<div class="row">
-	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; z-index: 3">
 	    				<div class="position-center-vertical">
 	    					<p>Desde 2001 com</p>
 	    					<p>ótimos resultados</p>
@@ -60,13 +79,13 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-1.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-1.jpg'); background-position: center center; background-size: cover">
 
-	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
 	    	<div class="container">
 	    		<div class="row">
-	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; z-index: 3">
 	    				<div class="position-center-vertical">
 	    					<p>Desde 2001 com</p>
 	    					<p>ótimos resultados</p>
@@ -77,13 +96,13 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="item item-home" data-hash="estrutura-organizacional" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; height: 644px">
+	    <div class="item item-home" data-hash="estrutura-organizacional" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover">
 
-	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; height: 644px; position: absolute; z-index: 2"></div>
+	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
 	    	<div class="container">
 	    		<div class="row">
-	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; height: 644px; z-index: 3">
+	    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel-text" style="position: relative; z-index: 3">
 	    				<div class="position-center-vertical">
 	    					<p>Desde 2001 com</p>
 	    					<p>ótimos resultados</p>
@@ -97,7 +116,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container hidden-xs">
 	<div class="row row-carousel-hash">
 		<div class="col-lg-3 col-md-3 col-sm-3">
 			<a class="btn url" data-name="o-escritorio" href="#o-escritorio">o escritório</a>
@@ -315,12 +334,20 @@
 
 		.session-atuacao-destaques .atuacao-content .content a:hover.session-link { color: #000000 }
 		.session-atuacao-destaques.after-scrolled .atuacao-content .content a:hover.session-link { color: #f5f5f5 }
+
+		.session-atuacao-destaques .col-atuacoes { position: relative; z-index: 1 !important; padding: 0 !important }
+	}
+
+	@media screen and (max-width: 768px) {
+		.session-atuacao-destaques .col-atuacoes { padding: 0 }
+		.session-atuacao-destaques .container,
+		.session-atuacao .container { padding-left: 15px !important; padding-right: 15px !important }
 	}
 </style>
-<div class="session-atuacao-destaques after-scrolled hidden-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 atuacao-content">
+<div class="session-atuacao-destaque-mobile hidden-lg after-scrolled" style="background-color: #242367">
+	<div class="container hidden-lg">
+		<div class="row hidden-lg">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12 atuacao-content">
 				<div class="content position-center-vertical">
 					<p class="bread-crumb-title">o que fazemos</p>
 					<h3 class="session-title">Áreas de atuação</h3>
@@ -328,7 +355,21 @@
 					<a href="<?= RAIZSITE ?>/areas-de-atuacao" class="session-link hidden-xs">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-zero" style="position: relative; z-index: 1">
+		</div>
+	</div>
+</div>
+<div class="session-atuacao-destaques after-scrolled">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs atuacao-content">
+				<div class="content position-center-vertical">
+					<p class="bread-crumb-title">o que fazemos</p>
+					<h3 class="session-title">Áreas de atuação</h3>
+					<p class="session-content">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
+					<a href="<?= RAIZSITE ?>/areas-de-atuacao" class="session-link hidden-xs">saiba mais&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306; margin-bottom: -1px;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-atuacoes">
 				<a href="<?= RAIZSITE ?>/areas-de-atuacao/#recuperacaocreditos">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 atuacao-item">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 611.994 611.994" style="enable-background:new 0 0 611.994 611.994;" xml:space="preserve"><g><g><g><path d="M306.032,611.994v-14.703l-0.023,14.703C137.29,611.994,0.012,474.722,0,305.997C0,137.272,137.272,0,305.997,0     c168.729,0,305.997,137.272,305.997,305.997C612,474.722,474.745,611.994,306.032,611.994z M305.997,29.406     c-152.51,0-276.591,124.081-276.591,276.591c0.012,152.511,124.099,276.591,276.603,276.591h0.023     c152.499,0,276.556-124.08,276.556-276.591C582.594,153.487,458.514,29.406,305.997,29.406z" fill="#242367"/><g><path d="M306.009,481.303c-55.595,0-100.833-42.621-100.833-95.004c0-8.122,6.581-14.703,14.703-14.703      s14.703,6.581,14.703,14.703c0,36.169,32.041,65.6,71.427,65.6s71.415-29.431,71.415-65.6c0-36.17-32.035-65.599-71.415-65.599      c-55.595,0-100.833-42.621-100.833-95.004c0-52.384,45.238-95.004,100.833-95.004c29.854,0,57.988,12.351,77.196,33.887      c5.404,6.063,4.869,15.355-1.188,20.76c-6.058,5.411-15.354,4.87-20.76-1.188c-13.627-15.285-33.764-24.054-55.248-24.054      c-39.38,0-71.427,29.423-71.427,65.599c0,36.169,32.041,65.598,71.427,65.598c55.596,0,100.821,42.621,100.821,95.005      C406.836,438.682,361.604,481.303,306.009,481.303z" fill="#242367"/><path d="M303.315,525.235c-8.122,0-14.703-6.581-14.703-14.703v-409.07c0-8.122,6.581-14.703,14.703-14.703      c8.123,0,14.703,6.581,14.703,14.703v409.07C318.019,518.654,311.438,525.235,303.315,525.235z" fill="#242367"/></g></g></g></g></svg>

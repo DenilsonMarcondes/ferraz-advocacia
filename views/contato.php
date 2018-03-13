@@ -474,7 +474,8 @@
 </div>
 
 <script type="text/javascript">
-	$(".hidden-filiais#matrizCuritiba").hide();
+	$(".hidden-filiais#matrizCuritiba").show();
+	$(".display-filiais#matrizCuritiba svg").addClass('rotate');
 	$(".display-filiais#matrizCuritiba").click(function(event) {
 		if($(".hidden-filiais#matrizCuritiba").is(":visible")) {
 			$(".display-filiais#matrizCuritiba svg").removeClass('rotate');

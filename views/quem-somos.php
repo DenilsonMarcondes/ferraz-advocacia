@@ -31,6 +31,7 @@
 	}
 </style>
 
+<div class="margin-header hidden-xs">&nbsp;</div>
 <div class="session-chamada hidden-xs">
 	<div class="container">
 		<div class="row row-chamada">
@@ -144,6 +145,14 @@
 
 		.session-missao-mobile .tab-title { font-family: 'Roboto', sans-serif; font-weight: 500; line-height: 1.8; font-size: 20px; text-transform: uppercase; color: #ffffff; margin: 0; }
 		.session-missao-mobile .tab-description { margin: 35px 0px 0px 0px; color: #ffffff; font-size: 12px; line-height: 1.5 }
+
+		.session-missao-mobile .nav-tabs { border: none }
+		.session-missao-mobile .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
+		.session-missao-mobile .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
+
+		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover { color: #ffffff !important; border-bottom: 1px solid #ffffff !important; background-color: transparent; border-radius: 0; border: none; }
+		.nav>li>a:focus, .nav>li>a:hover { background-color: transparent; border-radius: 0 }
+		.nav-tabs>li>a:hover { border-color: transparent }
 	}
 </style>
 <div class="session-missao-mobile hidden-lg hidden-md hidden-sm">

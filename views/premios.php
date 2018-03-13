@@ -141,8 +141,8 @@
 		</div>
 	</div>
 </div>
-<div class="row hidden-lg hidden-md hidden-sm">
-	<div class="hidden-lg hidden-md hidden-sm col-xs-12 col-slider">
+<div class="row hidden-lg hidden-md hidden-sm" style="margin: 0">
+	<div class="hidden-lg hidden-md hidden-sm col-xs-12 col-slider" style="padding: 0">
 		<div class="owl-carousel owl-premios owl-theme">
 			<div class="item">
 				<a data-fancybox="premios" href="<?= RAIZSITE ?>/img/marcacao-premios-1.jpg">
