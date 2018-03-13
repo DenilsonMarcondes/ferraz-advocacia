@@ -38,6 +38,34 @@
 	.session-escritorio a.session-link:hover { border-bottom: 1px solid #ffffff }
 
 	@media screen and (min-width: 768px) {
+		/*
+			=============
+			NAVBAR-EFFECT
+			=============
+		*/
+		.session-atuacoes,
+		.navbar-default.azul { -webkit-transition: 3s; transition: 3s }
+		.navbar-default.azul { background-color: #242367; border: none }
+		.navbar-default.azul .navbar-nav>li>a { color: #ffffff }
+
+		.session-atuacoes { background-color: #ffffff }
+		.session-atuacoes .col-descritivos p { color: #000000 }
+		.session-atuacoes .col-titulos h4 a { color: #000000 }
+
+		.session-atuacoes.azul { background-color: #242367 }
+		.session-atuacoes.azul .col-descritivos h4 { color: #ffffff }
+		.session-atuacoes.azul .col-descritivos p { color: #f5f5f5 }
+		.session-atuacoes.azul .col-titulos h4 a { color: #a29cdf }
+
+		.navbar-default.azul .navbar-nav>li>a:focus,
+		.navbar-default.azul .navbar-nav>li>a:hover,
+		.navbar-default.azul .navbar-nav>li>a.link-active { border-bottom: 1px solid #ffffff; color: #ffffff }
+		/*
+			=============
+			NAVBAR-EFFECT
+			=============
+		*/
+
 		.parallax-topo { background-attachment: fixed }
 
 		.navbar-default { background-color: #ffffff; border: none }
@@ -118,19 +146,17 @@
 		ATUAÇÕES STYLES
 		===============
 	*/
-	.session-atuacoes { background-color: #242367 }
 	.session-atuacoes .col-titulos h4 { font-family: 'Roboto', sans-serif; color: #f5f5f5; line-height: 1.56; font-size: 16px }
 	.session-atuacoes .col-titulos h4:first-child { padding: 0 !important }
 	.session-atuacoes .col-titulos h4 { margin: 0; padding-top: 30px }
-	.session-atuacoes .col-titulos h4 a { color: #a29cdf }
 	.session-atuacoes .col-titulos h4 a.active,
 	.session-atuacoes .col-titulos h4 a:focus,
 	.session-atuacoes .col-titulos h4 a:hover { color: #f5f5f5 }
 
-	.session-atuacoes .col-descritivos h4 { font-family: 'Roboto', sans-serif; color: #ffffff; line-height: 1.25; font-size: 20px }
+	.session-atuacoes .col-descritivos h4 { font-family: 'Roboto', sans-serif; line-height: 1.25; font-size: 20px }
 	.session-atuacoes .col-descritivos h4:first-child { padding-top: 0 }
 	.session-atuacoes .col-descritivos h4 { margin: 0; padding-top: 70px; padding-bottom: 30px }
-	.session-atuacoes .col-descritivos p { font-size: 14px; line-height: 1.79; color: #f5f5f5; margin: 0; }
+	.session-atuacoes .col-descritivos p { font-size: 14px; line-height: 1.79; margin: 0 }
 
 	@media screen and (min-width: 768px) {
 		.session-atuacoes { padding-top: 120px; padding-bottom: 120px }
@@ -141,6 +167,10 @@
 
 		.row-atuacoes.stay .col-titulos { position: absolute; bottom: -95px }
 		.row-atuacoes.stay .col-descritivos { float: right }
+	}
+
+	@media screen and (max-width: 767px) {
+		.session-atuacoes { background-color: #242367 }
 	}
 
 	@media screen and (min-width: 1200px) {
@@ -487,12 +517,22 @@
 	$(".navbar-default").addClass("transparent");
 	$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
 	$(document).scroll(function() {
-		if ($(this).scrollTop() < 290) {
+		if ($(this).scrollTop() == 0 && $(this).scrollTop() < 650) {
 			$(".navbar-default").addClass("transparent");
 			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
-		} else {
+		}
+
+		if ($(this).scrollTop() > 290 && $(this).scrollTop() < 650) {
 			$(".navbar-default").removeClass("transparent");
+			$(".navbar-default").removeClass("azul");
+			$(".session-atuacoes").removeClass('azul');
 			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/ferraz-advocacia.png');
+		}
+
+		if ($(this).scrollTop() > 650) {
+			$(".navbar-default").addClass("azul");
+			$(".session-atuacoes").addClass('azul');
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
 		}
 	});
 </script>

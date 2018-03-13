@@ -83,9 +83,11 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 	.parallax-topo .parallax-filter { height: 137px; margin-top: 74px }
 }
 
+/*
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
 	body { zoom: 0.9; }
 }
+*/
 
 /*
 	=============
