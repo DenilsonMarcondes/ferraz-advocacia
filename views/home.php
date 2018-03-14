@@ -504,7 +504,7 @@
 		<div class="parallax-title">
 			<p>O ESCRITÓRIO TEM COMO SÓCIOS-titulares ADVOGADOS ESPECIALIZADOS em diversas áreas</p>
 		</div><br>
-		<a class="parallax-link" href="<?= RAIZSITE ?>/quem-somos/#equipe">conheça a nossa equipe&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
+		<a class="parallax-link" href="<?= RAIZSITE ?>/quem-somos/#equipe">conheça a equipe&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="9px" height="9px" viewBox="0 0 306 306" fill="#ffffff" style="enable-background:new 0 0 306 306;" xml:space="preserve"><g><g id="chevron-right"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153   "/></g></g></svg></a>
 	</div>
 </div>
 

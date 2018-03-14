@@ -130,7 +130,7 @@
 				<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
-				<p class="bread-crumb-title hidden-xs" style="color: #A9A9A9">nossa estrutura</p>
+				<p class="bread-crumb-title hidden-xs" style="color: #A9A9A9">o que fazemos</p>
 				<p class="session-content-alternative">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
 			</div>
 	  	</div>
