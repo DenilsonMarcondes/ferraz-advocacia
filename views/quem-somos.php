@@ -46,8 +46,12 @@
 	.session-historico .col-tab .tab-title { font-family: 'Roboto', sans-serif; color: #f5f5f5; text-transform: uppercase }
 	.session-historico .col-tab .tab-description { color: #f5f5f5 }
 
+	.session-historico .line { -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out }
+	.session-historico .line { width: 0%; top: 0px; right: 0px }
+
 	@media screen and (min-width: 768px) {
 		.session-historico .col-historico { padding-right: 0; height: 616px }
+		.session-historico .col-historico p.bread-crumb-title { margin-top: -11px; margin-right: -5px; margin-left: 0 }
 		.session-historico h3.session-title { color: #242367; margin-top: 21px; margin-bottom: 21px }
 		.session-historico p.session-content { color: #4a4a4a }
 
@@ -98,6 +102,8 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-historico">
 				<div style="height: 105px; background-color: #ffffff; margin-top: -105px" class="hidden-xs"></div>
 
+				<div class="line hidden-xs"></div>
+
 				<p class="bread-crumb-title">o histórico</p>
 				<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
 				<p class="session-content">Fundado em 2001, na cidade de Curitiba, Ferraz | Cicarelli & Passold Advogados Associados é um escritório de advocacia que está presente em três estados: Paraná, Santa Catarina e São Paulo. Além disso, conta com parceiros éticos e de confi ança em praticamente todas as regiões do Brasil, sempre priorizando a qualidade dos serviços e resultados aos clientes.</p>
@@ -137,6 +143,21 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 180) {
+			$(".session-historico .line").css('width', '80%');
+
+			setTimeout(function(){
+				$(".bread-crumb-title").css({
+					'margin-right': '0',
+					'opacity': '9'
+				});
+			}, 800);
+		}
+	});
+</script>
+
 <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="background: url('<?= RAIZSITE ?>/img/marcacao-5.jpg'); height: 250px; background-position: center center; margin-top: -250px"></div>
 
 <style type="text/css">
@@ -324,6 +345,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">
 				<div class="position-center-vertical">
+					<p class="bread-crumb-title">o que fazemos</p>
 					<h3 class="session-title" style="color: #f5f5f5">Áreas de atuação</h3>
 					<p class="session-content" style="color: #f5f5f5">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
 
