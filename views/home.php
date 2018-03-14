@@ -353,6 +353,9 @@
 	*/
 	.session-atuacao-destaques { -webkit-transition: 3s; transition: 3s }
 	@media screen and (min-width: 768px) {
+		.session-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.session-link:hover svg { margin-left: 5px }
+		
 		.session-atuacao-destaques { background-color: #ffffff }
 		.session-atuacao-destaques.after-scrolled { background-color: #242367; -webkit-transition: 3s; transition: 3s }
 
@@ -488,6 +491,12 @@
 	</div>
 </div>
 
+<style type="text/css">
+	@media screen and (min-width: 768px) {
+		.parallax-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.parallax-link:hover svg { margin-left: 5px }
+	}
+</style>
 <div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 

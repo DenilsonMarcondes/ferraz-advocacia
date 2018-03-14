@@ -5,7 +5,8 @@
 		==============
 	*/
 	.session-premios { background-color: #f5f5f5 }
-	.session-premios .line { width: 94%; top: 9px }
+	.session-premios .line { -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out }
+	.session-premios .line { width: 0%; top: 9px }
 	@media screen and (min-width: 768px) {
 		.navbar-default { background-color: #ffffff; border: none }
 		.navbar-default.transparent { background-color: transparent; border: none }
@@ -59,6 +60,20 @@
 	    </div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 100) {
+			$(".session-premios .line").css('width', '94%');
+
+			setTimeout(function(){
+				$(".bread-crumb-title").css({
+					'margin-left': '0',
+					'opacity': '9'
+				});
+			}, 800);
+		}
+	});
+</script>
 
 <style type="text/css">
 	/*
@@ -203,6 +218,12 @@
 	});
 </script>
 
+<style type="text/css">
+	@media screen and (min-width: 768px) {
+		.parallax-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.parallax-link:hover svg { margin-left: 5px }
+	}
+</style>
 <div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 

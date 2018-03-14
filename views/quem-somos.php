@@ -297,6 +297,9 @@
 	.session-premios a.session-link:hover { border-bottom: 1px solid #242367 }
 
 	@media screen and (min-width: 768px) {
+		.session-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.session-link:hover svg { margin-left: 5px }
+		
 		.session-premios .col-conteudo { height: 320px }
 		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
 	}

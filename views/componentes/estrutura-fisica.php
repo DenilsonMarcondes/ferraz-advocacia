@@ -19,6 +19,10 @@
 	.phones p { margin: 0 }
 	.phones p:nth-child(2) { margin-left: 30.5px }
 
+	@media screen and (min-width: 768px) {
+		.background-matriz { -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out }
+	}
+
 	@media screen and (min-width: 768px) and (max-width: 991px) {
 		.item-title { font-size: 18px }
 		.item-content p.item-address { font-size: 12px }
@@ -175,13 +179,13 @@
 </div>
 
 <script type="text/javascript">
-	$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center"});
+	$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
 
 	$("a.hover-matriz").mouseover(function(){
 		imgSrc = $(this).find("img").attr("src");
-		$(".background-matriz").css({"background-image": "url('"+imgSrc+"')", "background-size": "cover", "background-position": "top center"});
+		$(".background-matriz").css({"background-image": "url('"+imgSrc+"')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
 	});
 	$("a.hover-matriz").mouseout(function(){
-		$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center"});
+		$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
 	});
 </script>

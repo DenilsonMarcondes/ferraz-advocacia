@@ -5,7 +5,8 @@
 		================
 	*/
 	.session-conteudo { background-color: #f5f5f5 }
-	.session-conteudo .line { width: 94%; top: 9px }
+	.session-conteudo .line { -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out }
+	.session-conteudo .line { width: 0%; top: 9px }
 
 	.session-socios { background-color: #242367 }
 	@media screen and (min-width: 768px) {
@@ -62,6 +63,20 @@
 	    </div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 150) {
+			$(".session-conteudo .line").css('width', '94%');
+
+			setTimeout(function(){
+				$(".bread-crumb-title").css({
+					'margin-left': '0',
+					'opacity': '9'
+				});
+			}, 800);
+		}
+	});
+</script>
 
 <div class="session-socios">
 	<div class="container">
@@ -118,7 +133,7 @@
 		<div class="tarja-branca position-center" style="height: 519px; width: 113px; background-color: #f5f5f5; z-index: 2">
 			<div class="chamada">
 				<p>quem somos</p>
-				<p class="owl-change-text">Sócios-titulares</p>
+				<p class="owl-change-text"><a style="color: #242367" href="<?= RAIZSITE ?>/quem-somos/#equipe">Sócios-titulares</a></p>
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">

@@ -28,7 +28,8 @@
 		==============
 	*/
 	.session-atuacao-conteudo { background-color: #f5f5f5 }
-	.session-atuacao-conteudo .line { width: 94%; top: 9px }
+	.session-atuacao-conteudo .line { -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out }
+	.session-atuacao-conteudo .line { width: 0%; top: 9px }
 
 	.session-escritorio { background-color: #242367 }
 	.session-escritorio h3.session-title,
@@ -135,6 +136,20 @@
 	  	</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).scroll(function() {
+		if ($(this).scrollTop() > 150) {
+			$(".session-atuacao-conteudo .line").css('width', '94%');
+
+			setTimeout(function(){
+				$(".bread-crumb-title").css({
+					'margin-left': '0',
+					'opacity': '9'
+				});
+			}, 800);
+		}
+	});
+</script>
 
 <div class="hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center bottom; background-size: cover; background-attachment: fixed; height: 188px">
 	<div class="hidden-xs" style="background: #242367; width: 100%; opacity: 0.34; height: 188px"></div>
@@ -332,6 +347,9 @@
 	@media screen and (min-width: 768px) {
 		.session-premios .col-conteudo { height: 320px }
 		.session-premios p.session-content { margin-top: 21px; margin-bottom: 15px }
+
+		.session-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.session-link:hover svg { margin-left: 5px }
 	}
 
 	@media screen and (min-width: 1200px) {

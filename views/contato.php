@@ -17,6 +17,8 @@
 
 <style type="text/css">
 	@media screen and (min-width: 769px) {
+		.banner-topo-contact { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out }
+
 		.navbar-default { background-color: #ffffff; border: none }
 		.navbar-default.transparent { background-color: transparent; border: none }
 
@@ -462,6 +464,12 @@
 	</div>
 </div>
 
+<style type="text/css">
+	@media screen and (min-width: 768px) {
+		.parallax-link svg { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out }
+		.parallax-link:hover svg { margin-left: 5px }
+	}
+</style>
 <div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 
