@@ -180,7 +180,7 @@
 
 <script type="text/javascript">
 	$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
-
+	/*
 	$("a.hover-matriz").mouseover(function(){
 		imgSrc = $(this).find("img").attr("src");
 		$(".background-matriz").css({"background-image": "url('"+imgSrc+"')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
@@ -188,4 +188,5 @@
 	$("a.hover-matriz").mouseout(function(){
 		$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg')", "background-size": "cover", "background-position": "top center", "transition": "all 0.6s ease-out"});
 	});
+	*/
 </script>

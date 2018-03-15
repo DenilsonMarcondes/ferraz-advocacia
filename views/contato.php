@@ -16,8 +16,8 @@
 </script>
 
 <style type="text/css">
-	@media screen and (min-width: 769px) {
-		.banner-topo-contact { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out }
+	@media screen and (min-width: 768px) {
+		.banner-topo-contact { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; height: 295px }
 
 		.navbar-default { background-color: #ffffff; border: none }
 		.navbar-default.transparent { background-color: transparent; border: none }
@@ -32,7 +32,7 @@
 	}
 </style>
 
-<div class="banner-topo-contact margin-header" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
+<div class="banner-topo-contact" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
 
 <div class="container hidden-xs">
 	<div class="row row-list">
@@ -482,6 +482,18 @@
 </div>
 
 <script type="text/javascript">
+	$(".navbar-default").addClass("transparent");
+	$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+	$(document).scroll(function() {
+		if ($(this).scrollTop() < 290) {
+			$(".navbar-default").addClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/logo-branca.png');
+		} else {
+			$(".navbar-default").removeClass("transparent");
+			$(".img-brand").attr('src', '<?= RAIZSITE ?>/img/ferraz-advocacia.png');
+		}
+	});
+	
 	$(".hidden-filiais#matrizCuritiba").show();
 	$(".display-filiais#matrizCuritiba svg").addClass('rotate');
 	$(".display-filiais#matrizCuritiba").click(function(event) {

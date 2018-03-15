@@ -169,7 +169,7 @@
 
 		.session-missao-mobile .nav-tabs { border: none }
 		.session-missao-mobile .nav-tabs>li>a { font-size: 14px; color: #b1b1b1; font-weight: 600; text-transform: uppercase }
-		.session-missao-mobile .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 43px; margin-right: 10px; border-top: none }
+		.session-missao-mobile .nav>li>a { padding: 0; margin-right: 45px; border-bottom: 1px solid #b1b1b1; padding-right: 24px; margin-right: 10px; border-top: none }
 
 		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover { color: #ffffff !important; border-bottom: 1px solid #ffffff !important; background-color: transparent; border-radius: 0; border: none; }
 		.nav>li>a:focus, .nav>li>a:hover { background-color: transparent; border-radius: 0 }

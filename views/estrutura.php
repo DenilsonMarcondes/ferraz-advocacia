@@ -138,23 +138,23 @@
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
 			<div class="item">
-				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg">
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg" data-caption="ALEXANDRE NELSON FERRAZ">
 					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-1.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
 				</a>
-				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg">
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg" data-caption="MÁRCIO RUBENS PASSOLD">
 					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-2.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
 				</a>
 			</div>
 			<div class="item">
-				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg">
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg" data-caption="LEONARDO XAVIER ROUSSENQ">
 					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-3.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
 				</a>
-				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg">
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg" data-caption="MARIA ANGELA KEIKO TAIRA">
 					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-4.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
 				</a>
 			</div>
 			<div class="item">
-				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg">
+				<a data-fancybox="socios-titulares" href="<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg" data-caption="FELIPE SÁ FERREIRA">
 					<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-socio-titular-5.jpg'); height: 519px; background-size: cover; background-position: center center"></div>
 				</a>
 				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="background: #242367; height: 519px"></div>
