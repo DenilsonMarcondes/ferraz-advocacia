@@ -146,7 +146,7 @@
 <script type="text/javascript">
 	$(document).scroll(function() {
 		if ($(this).scrollTop() > 180) {
-			$(".session-historico .line").css('width', '80%');
+			$(".session-historico .line").css('width', '75%');
 
 			setTimeout(function(){
 				$(".bread-crumb-title").css({
@@ -345,7 +345,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-conteudo">
 				<div class="position-center-vertical">
-					<p class="bread-crumb-title">o que fazemos</p>
+					<p class="bread-crumb-title" style="margin-left: 0 !important; margin-bottom: 15px">o que fazemos</p>
 					<h3 class="session-title" style="color: #f5f5f5">Áreas de atuação</h3>
 					<p class="session-content" style="color: #f5f5f5">O escritório tem especialidade nas áreas de direito bancário, fomento mercantil e empresarial, tanto na recuperação de créditos, quanto na defesa de ações cíveis.</p>
 

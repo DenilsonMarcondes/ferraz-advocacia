@@ -53,7 +53,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
 				<div class="line hidden-xs"></div>
 
-				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">nossos premios</p>
+				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">nossa estrutura</p>
 				<h3 class="session-title">Estrutura Organizacional</h3>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">

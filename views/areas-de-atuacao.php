@@ -126,7 +126,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
 				<div class="line hidden-xs"></div>
 
-				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">nossos premios</p>
+				<p class="bread-crumb-title hidden-lg hidden-md hidden-sm" style="color: #A9A9A9">o que fazemos</p>
 				<h3 class="session-title">Ferraz | Cicarelli & Passold Advogados Associados</h3>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="color: #16197D">
@@ -177,7 +177,7 @@
 		.session-atuacoes { padding-top: 120px; padding-bottom: 120px }
 
 		.row-atuacoes { position: relative }
-		.row-atuacoes.active .col-titulos { position: fixed; top: 120px }
+		.row-atuacoes.active .col-titulos { position: fixed; top: 120px; z-index: 0 }
 		.row-atuacoes.active .col-descritivos { float: right }
 
 		.row-atuacoes.stay .col-titulos { position: absolute; bottom: -95px }
@@ -339,6 +339,9 @@
 </script>
 
 <style type="text/css">
+	.session-premios,
+	.session-escritorio { position: relative; z-index: 1 }
+
 	.session-premios { background-color: #f5f5f5 }
 	.session-premios p.session-content { color: #4a4a4a }
 	.session-premios a.session-link:focus,

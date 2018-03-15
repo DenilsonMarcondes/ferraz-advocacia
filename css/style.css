@@ -94,30 +94,36 @@ p.session-content-alternative { font-family: 'Roboto', sans-serif }
 	HEADER STYLES
 	=============
 */
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-default .navbar-nav>li>a { padding: 0; margin: 13px 20px }
 	.navbar-default.navbar-sticky .navbar-nav>li>a { margin: 13px 20px }
+
+	.navbar-default .navbar-brand img { height: 50px }
+	.navbar-default.navbar-sticky .navbar-brand img { height: 50px }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 	.navbar-default { -webkit-transition: 0.5s; transition: 0.5s }
 	.navbar-default { padding-top: 28px; padding-bottom: 28px }
 	.navbar-default .navbar-brand { padding: 0px 15px; }
-	.navbar-default .navbar-brand img { height: 57px; margin-top: -5px }
+	.navbar-default .navbar-brand img { margin-top: -5px }
 	.navbar-default .navbar-nav>li:nth-child(5)>a { margin-right: 13px }
 
 	.navbar-sticky { -webkit-transition: 0.5s; transition: 0.5s }
 	.navbar-default.navbar-sticky { padding-top: 10px; padding-bottom: 10px }
-	.navbar-default.navbar-sticky .navbar-brand img { height: 53px; margin-top: -2px }
+	.navbar-default.navbar-sticky .navbar-brand img { margin-top: -2px }
 }
 @media screen and (min-width: 992px) {
 	.navbar-default .navbar-nav>li>a { padding: 0; margin: 13px 25px }
 	.navbar-default.navbar-sticky .navbar-nav>li>a { margin: 13px 20px }
+
+	.navbar-default .navbar-brand img { height: 57px }
+	.navbar-default.navbar-sticky .navbar-brand img { height: 53px }
 }
 @media screen and (max-width: 767px) {
 	.navbar-default { background-color: #242367 !important; border-color: #e7e7e7 }
 	.navbar-default .navbar-brand { position: absolute; left: 50%; top: 50%; -ms-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%) }
 	.navbar-default .navbar-brand { padding: 0; height: auto }
-	.navbar-default .navbar-brand img { height: 37px }
+	.navbar-default .navbar-brand img { height: 47px }
 
 	.navbar-default .navbar-toggle { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
 	.navbar-default .navbar-toggle { float: left; margin: 0; margin-left: 5px; border-radius: 0; border: none; }
@@ -323,7 +329,7 @@ footer .row-footer-copyright .col-peppers a { color: #f5f5f5 }
 	.row-carousel-clients .owl-carousel { padding-top: 15px; padding-bottom: 15px }
 
 	footer .row-footer-logo .col-logo { padding-top: 28px; padding-bottom: 28px }
-	footer .row-footer-logo .col-logo img { height: 37px }
+	footer .row-footer-logo .col-logo img { height: 47px }
 
 	footer .row-footer-copyright { padding-top: 19px; padding-bottom: 19px }
 	footer .row-footer-copyright .col-copyright p { font-size: 6px; width: 120px; font-weight: 200 }
