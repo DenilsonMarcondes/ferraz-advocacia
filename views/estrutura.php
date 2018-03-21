@@ -43,7 +43,7 @@
 	}
 </style>
 
-<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
+<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/aresdeatuacao.jpg'); background-position: center -385px; background-size: cover">
 	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5"></div>
 </div>
 

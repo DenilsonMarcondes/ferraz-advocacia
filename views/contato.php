@@ -32,13 +32,13 @@
 	}
 </style>
 
-<div class="banner-topo-contact" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); background-position: top center; background-size: cover; background-attachment: fixed"></div>
+<div class="banner-topo-contact" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); background-position: center center; background-size: cover; background-attachment: fixed"></div>
 
 <div class="container hidden-xs">
 	<div class="row row-list">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-list">
 			<ul class="nav nav-tabs" id="myTabs">
-				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="marcacao-matriz-5.jpg">Matriz Curitiba</a></li>
+				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="sede-curitiba.jpg">Matriz Curitiba</a></li>
 				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" data-image="marcacao-matriz-2.jpg" role="tab">Filial Blumenau</a></li>
 				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" data-image="marcacao-matriz-4.jpg" role="tab">Filial São Paulo</a></li>
 				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="marcacao-matriz-1.jpg" role="tab">Filial Maringá</a></li>
@@ -50,7 +50,7 @@
 <script type="text/javascript">
 	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 		var target = $(e.target).attr("data-image");
-		$(".banner-topo-contact").css({"background-image":"url('<?= RAIZSITE ?>/img/"+target+"')", "background-size": "cover", "background-position": "top center"});
+		$(".banner-topo-contact").css({"background-image":"url('<?= RAIZSITE ?>/img/"+target+"')", "background-size": "cover", "background-position": "center center"});
 	});
 </script>
 
@@ -470,7 +470,7 @@
 		.parallax-link:hover svg { margin-left: 5px }
 	}
 </style>
-<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
+<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/parallax.jpg'); background-position: bottom center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 
 	<div class="position-center-center">

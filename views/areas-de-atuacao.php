@@ -116,7 +116,7 @@
 	}
 </style>
 
-<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center center; background-size: cover">
+<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/aresdeatuacao.jpg'); background-position: center -345px; background-size: cover; background-attachment: fixed">
 	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.34"></div>
 </div>
 
@@ -151,7 +151,7 @@
 	});
 </script>
 
-<div class="hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-position: center bottom; background-size: cover; background-attachment: fixed; height: 188px">
+<div class="hidden-xs" style="background: url('<?= RAIZSITE ?>/img/aresdeatuacao.jpg'); background-position: center bottom; background-size: cover; background-attachment: fixed; height: 188px">
 	<div class="hidden-xs" style="background: #242367; width: 100%; opacity: 0.34; height: 188px"></div>
 </div>
 
@@ -448,9 +448,9 @@
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/sede-curitiba.jpg">
 				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
 			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">

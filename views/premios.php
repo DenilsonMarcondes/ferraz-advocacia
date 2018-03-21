@@ -40,7 +40,7 @@
 	}
 </style>
 
-<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover; background-attachment: fixed">
+<div class="parallax-topo" style="background: url('<?= RAIZSITE ?>/img/premios.jpg'); background-position: center -280px; background-size: cover">
 	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5"></div>
 </div>
 
@@ -224,7 +224,7 @@
 		.parallax-link:hover svg { margin-left: 5px }
 	}
 </style>
-<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
+<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/parallax.jpg'); background-position: bottom center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 
 	<div class="position-center-center">

@@ -71,7 +71,7 @@
 	</div>
 
 	<div class="owl-carousel owl-home owl-theme">
-	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-2.jpg'); background-position: center center; background-size: cover">
+	    <div class="item item-home" data-hash="o-escritorio" style="background: url('<?= RAIZSITE ?>/img/banner_escritorio.jpg'); background-position: center center; background-size: cover">
 
 	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
@@ -88,7 +88,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/marcacao-navbar-1.jpg'); background-position: center center; background-size: cover">
+	    <div class="item item-home" data-hash="o-que-fazemos" style="background: url('<?= RAIZSITE ?>/img/banner_oquefazemos.jpg'); background-position: center center; background-size: cover">
 
 	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
@@ -105,7 +105,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="item item-home" data-hash="estrutura-organizacional" style="background: url('<?= RAIZSITE ?>/img/marcacao-2.jpg'); background-position: center center; background-size: cover">
+	    <div class="item item-home" data-hash="estrutura-organizacional" style="background: url('<?= RAIZSITE ?>/img/banner_estruturaorganizacional.jpg'); background-position: center center; background-size: cover">
 
 	    	<div class="parallax-filter" style="background: #242367; width: 100%; opacity: 0.5; position: absolute; z-index: 2"></div>
 
@@ -302,9 +302,9 @@
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/sede-curitiba.jpg">
 				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
 			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">
@@ -514,7 +514,7 @@
 		.parallax-link:hover svg { margin-left: 5px }
 	}
 </style>
-<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/marcacao-1.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; position: relative">
+<div class="parallax-to-action" style="background: url('<?= RAIZSITE ?>/img/parallax.jpg'); background-position: bottom center; background-size: cover; background-attachment: fixed; position: relative">
 	<div class="parallax-to-action-filter" style="background: #242367; width: 100%; opacity: 0.73"></div>
 
 	<div class="position-center-center">

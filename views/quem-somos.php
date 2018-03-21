@@ -86,9 +86,9 @@
 	}
 </style>
 <div class="container hidden-xs">
-	<div style="height: 406px; background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-size: cover; background-position: center -50px"></div>
+	<div style="height: 406px; background: url('<?= RAIZSITE ?>/img/quemsomos.jpg'); background-size: cover; background-position: center -140px"></div>
 </div>
-<div class="hidden-lg hidden-md hidden-sm" style="height: 233px; background: url('<?= RAIZSITE ?>/img/marcacao-4.jpg'); background-size: cover; background-position: center center; margin-top: 70px; position: relative">
+<div class="hidden-lg hidden-md hidden-sm" style="height: 233px; background: url('<?= RAIZSITE ?>/img/quemsomos.jpg'); background-size: cover; background-position: center center; margin-top: 70px; position: relative">
 	<div class="container">
 		<p class="position-center-vertical" style="font-family: 'Roboto', sans-serif; font-size: 20px; color: #242367; line-height: 1.25; font-weight: 500; width: 191px">Ferraz | Cicarelli & Passold Advogados Associados</p>
 	</div>
@@ -158,7 +158,7 @@
 	});
 </script>
 
-<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="background: url('<?= RAIZSITE ?>/img/marcacao-5.jpg'); height: 250px; background-position: center center; margin-top: -250px"></div>
+<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pull-right" style="background: url('<?= RAIZSITE ?>/img/quemsomos2.jpg'); height: 250px; background-position: center center; margin-top: -250px"></div>
 
 <style type="text/css">
 	@media screen and (max-width: 767px) {
@@ -426,9 +426,9 @@
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/sede-curitiba.jpg">
 				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-5.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
 			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">
