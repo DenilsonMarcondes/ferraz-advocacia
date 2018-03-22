@@ -81,7 +81,7 @@
 			<a href="<?= RAIZSITE ?>/contato/#filialBlumenau" class="hover-matriz" data-id="filial-blumenau">
 				<div class="col-lg-3 col-md-3 col-sm-3 col">
 					<p class="session-title number">02</p>
-					<img src="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg" class="img-responsive">
+					<div style="height: 140px; background: url('<?= RAIZSITE ?>/img/blumenau.jpeg'); background-size: cover; background-position: center center"></div>
 					<p class="item-title text-center">Filial Blumenau</p>
 
 					<div class="item-content">
@@ -106,7 +106,7 @@
 			<a href="<?= RAIZSITE ?>/contato/#filialSaoPaulo" class="hover-matriz" data-id="filial-sao-paulo">
 				<div class="col-lg-3 col-md-3 col-sm-3 col">
 					<p class="session-title number">03</p>
-					<img src="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg" class="img-responsive">
+					<div style="height: 140px; background: url('<?= RAIZSITE ?>/img/sao-paulo.jpg'); background-size: cover; background-position: center center"></div>
 					<p class="item-title text-center">Filial São Paulo</p>
 
 					<div class="item-content">
@@ -130,7 +130,7 @@
 			<a href="<?= RAIZSITE ?>/contato/#filialMaringa" class="hover-matriz" data-id="filial-maringa">
 				<div class="col-lg-3 col-md-3 col-sm-3 col">
 					<p class="session-title number">04</p>
-					<img src="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg" class="img-responsive">
+					<div style="height: 140px; background: url('<?= RAIZSITE ?>/img/maringa.jpg'); background-size: cover; background-position: center center"></div>
 					<p class="item-title text-center">Filial Maringá</p>
 
 					<div class="item-content">
@@ -154,7 +154,7 @@
 			<a href="<?= RAIZSITE ?>/contato/#filialCascavel" class="hover-matriz" data-id="filial-cascavel">
 				<div class="col-lg-3 col-md-3 col-sm-3 col">
 					<p class="session-title number">05</p>
-					<img src="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg" class="img-responsive">
+					<div style="height: 140px; background: url('<?= RAIZSITE ?>/img/cascavel.jpg'); background-size: cover; background-position: center center"></div>
 					<p class="item-title text-center">Filial Cascavel</p>
 
 					<div class="item-content">
@@ -179,7 +179,7 @@
 </div>
 
 <script type="text/javascript">
-	$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/sede-curitiba.jpg')", "background-size": "cover", "background-position": "center center", "transition": "all 0.6s ease-out"});
+	$(".background-matriz").css({"background-image": "url('<?= RAIZSITE ?>/img/curitiba.jpg')", "background-size": "cover", "background-position": "center -20px", "transition": "all 0.6s ease-out"});
 	/*
 	$("a.hover-matriz").mouseover(function(){
 		imgSrc = $(this).find("img").attr("src");

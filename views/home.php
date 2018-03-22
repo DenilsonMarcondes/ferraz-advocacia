@@ -302,29 +302,29 @@
 			</div>
 		</div>
 		<div class="owl-carousel owl-matrizes owl-theme">
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/sede-curitiba.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/curitiba.jpg">
 				<div class="item" data-text="Filial Blumenau" data-link="#filialBlumenau">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/curitiba.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/blumenau.jpeg">
 				<div class="item" data-text="Filial São Paulo" data-link="#filialSaoPaulo">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-2.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/blumenau.jpeg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/sao-paulo.jpg">
 				<div class="item" data-text="Filial Maringá" data-link="#filialMaringa">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-4.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/sao-paulo.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/maringa.jpg">
 				<div class="item" data-text="Filial Cascavel" data-link="#filialCascavel">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-1.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/maringa.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
-			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg">
+			<a data-fancybox="matrizes" href="<?= RAIZSITE ?>/img/cascavel.jpg">
 				<div class="item" data-text="Matriz Curitiba" data-link="#matrizCuritiba">
-					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/marcacao-matriz-3.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="background: url('<?= RAIZSITE ?>/img/cascavel.jpg'); height: 631px; background-size: cover; background-position: center center"></div>
 				</div>
 			</a>
 		</div>

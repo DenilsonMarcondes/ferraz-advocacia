@@ -17,7 +17,7 @@
 
 <style type="text/css">
 	@media screen and (min-width: 768px) {
-		.banner-topo-contact { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; height: 295px }
+		.banner-topo-contact { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; height: 295px; background-size: cover !important; background-position: center -275px !important; background-attachment: fixed !important }
 
 		.navbar-default { background-color: #ffffff; border: none }
 		.navbar-default.transparent { background-color: transparent; border: none }
@@ -32,17 +32,17 @@
 	}
 </style>
 
-<div class="banner-topo-contact" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg'); background-position: center center; background-size: cover; background-attachment: fixed"></div>
+<div class="banner-topo-contact" style="background: url('<?= RAIZSITE ?>/img/sede-curitiba.jpg')"></div>
 
 <div class="container hidden-xs">
 	<div class="row row-list">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-list">
 			<ul class="nav nav-tabs" id="myTabs">
-				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="sede-curitiba.jpg">Matriz Curitiba</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" data-image="marcacao-matriz-2.jpg" role="tab">Filial Blumenau</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" data-image="marcacao-matriz-4.jpg" role="tab">Filial São Paulo</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="marcacao-matriz-1.jpg" role="tab">Filial Maringá</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" data-image="marcacao-matriz-3.jpg" role="tab">Filial Cascavel</a></li>
+				<li role="presentation" class="active"><a data-toggle="tab" href="#matrizCuritiba" data-image="curitiba.jpg">Matriz Curitiba</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialBlumenau" data-image="blumenau.jpeg" role="tab">Filial Blumenau</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialSaoPaulo" data-image="sao-paulo.jpg" role="tab">Filial São Paulo</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialMaringa" data-image="maringa.jpg" role="tab">Filial Maringá</a></li>
+				<li role="presentation"><a data-toggle="tab" href="#filialCascavel" data-image="cascavel.jpg" role="tab">Filial Cascavel</a></li>
 			</ul>
 		</div>
 	</div>
@@ -50,7 +50,7 @@
 <script type="text/javascript">
 	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 		var target = $(e.target).attr("data-image");
-		$(".banner-topo-contact").css({"background-image":"url('<?= RAIZSITE ?>/img/"+target+"')", "background-size": "cover", "background-position": "center center"});
+		$(".banner-topo-contact").css({"background-image":"url('<?= RAIZSITE ?>/img/"+target+"')"});
 	});
 </script>
 
